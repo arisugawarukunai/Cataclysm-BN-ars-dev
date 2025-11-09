@@ -26,17 +26,17 @@
 # Pururun kun, 2025
 # Ivan Saikyo, 2025
 # Ekaterina Aleksashkina <donjonn@yandex.ru>, 2025
-# Vorpal Void <vorpal.void@gmail.com>, 2025
 # Vlados <vuradoz@gmail.com>, 2025
 # GostBug <blackday8990@gmx.de>, 2025
 # Coolthulhu <Coolthulhu@gmail.com>, 2025
 # Vadim, 2025
+# Vorpal Void <vorpal.void@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-bn\n"
-"POT-Creation-Date: 2025-10-31 01:46+0000\n"
-"Last-Translator: Vadim, 2025\n"
+"POT-Creation-Date: 2025-11-09 01:37+0000\n"
+"Last-Translator: Vorpal Void <vorpal.void@gmail.com>, 2025\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/bn-team/teams/113585/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5598,7 +5598,7 @@ msgstr "Убрать подгонку под анатомию мутантов"
 
 #: data/json/clothing_mods.json
 msgid "Resize to fit abnormally small mutants"
-msgstr ""
+msgstr "Подогнать для ношения крайне маленькими мутантами"
 
 #: data/json/clothing_mods.json
 msgid "Undo resizing for small mutants"
@@ -6968,6 +6968,18 @@ msgstr ""
 
 #: data/json/construction_group.json
 msgid "Plant Grass"
+msgstr ""
+
+#: data/json/construction_group.json
+msgid "Build canvas flooring"
+msgstr ""
+
+#: data/json/construction_group.json
+msgid "Build canvas wall"
+msgstr ""
+
+#: data/json/construction_group.json
+msgid "Build canvas door"
 msgstr ""
 
 #: data/json/debug_spells.json
@@ -11752,6 +11764,8 @@ msgid ""
 "This clothing is <good>uniquely compatible</good> with mutants possessing "
 "<info>serpentine bodies</info>."
 msgstr ""
+"Эта одежда <good>особенно подходит</good> мутантам, обладающим "
+"<info>змеевидным телом</info>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -11759,6 +11773,8 @@ msgid ""
 "This clothing is <good>uniquely compatible</good> with mutants possessing "
 "<info>clawed fingers</info>."
 msgstr ""
+"Эта одежда <good>особенно подходит</good> мутантам, обладающим "
+"<info>когтистыми руками</info>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -11766,6 +11782,8 @@ msgid ""
 "This clothing is <good>uniquely compatible</good> with mutants possessing "
 "<info>toe claws</info>."
 msgstr ""
+"Эта одежда <good>особенно подходит</good> мутантам, обладающим <info>когтями"
+" на ногах</info>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -11773,6 +11791,8 @@ msgid ""
 "This clothing is <good>uniquely compatible</good> with mutants possessing "
 "<info>hooves, foot-paws, or otherwise altered feet</info>."
 msgstr ""
+"Эта одежда <good>особенно подходит</good> мутантам, обладающим "
+"<info>копытами, лапами или иными изменёнными ступнями</info>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -11780,6 +11800,8 @@ msgid ""
 "This clothing is <good>uniquely compatible</good> with mutants possessing "
 "<info>horns on their head</info>."
 msgstr ""
+"Эта одежда <good>особенно подходит</good> мутантам, обладающим <info>рогами "
+"на голове</info>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -11787,6 +11809,8 @@ msgid ""
 "This clothing is <good>uniquely compatible</good> with mutants possessing "
 "<info>a tail</info>."
 msgstr ""
+"Эта одежда <good>особенно подходит</good> мутантам, обладающим "
+"<info>хвостом</info>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -11794,6 +11818,8 @@ msgid ""
 "This clothing is <good>uniquely compatible</good> with mutants possessing "
 "<info>wings</info>."
 msgstr ""
+"Эта одежда <good>особенно подходит</good> мутантам, обладающим "
+"<info>крыльями</info>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -11801,6 +11827,8 @@ msgid ""
 "This clothing is <good>uniquely compatible</good> with mutants possessing "
 "<info>a snout, beak, or mandibles</info>."
 msgstr ""
+"Эта одежда <good>особенно подходит</good> мутантам, обладающим "
+"<info>вытянутой мордой, клювом или жвалами</info>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -12278,6 +12306,8 @@ msgid ""
 "This gear has been modified to accommodate <info>abnormally small "
 "mutants</info> with some <bad>increase to encumbrance</bad>."
 msgstr ""
+"Это снаряжение было модифицировано для ношения <info>крайне маленькими "
+"мутантами</info>, с небольшим <bad>увеличением стеснения</bad>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -12520,6 +12550,8 @@ msgid ""
 "This gear has been permeated with carbon fiber to <good>increase "
 "protection</good> with some <bad>increase to encumbrance</bad>."
 msgstr ""
+"Это снаряжение было прострочено углеродной нитью для <good>увеличения "
+"защиты</good>ценой небольшого <bad>увеличения стеснения</bad>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -12555,6 +12587,8 @@ msgid ""
 "This gear has certain parts padded with steel to greatly <good>increase "
 "protection</good> with a high <bad>increase to encumbrance</bad>."
 msgstr ""
+"Это снаряжение было укреплено металлом для значительного <good>увеличения "
+"защиты</good>ценой высокого <bad>увеличения стеснения</bad>."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
@@ -12987,7 +13021,7 @@ msgstr "Быстро развести огонь"
 
 #: data/json/item_actions.json
 msgid "Unveil Contents"
-msgstr ""
+msgstr "Извлечь содержимое"
 
 #: data/json/item_actions.json
 msgid "Pull out nails"
@@ -13019,7 +13053,7 @@ msgstr "Копать через породу"
 
 #: data/json/item_actions.json
 msgid "Analyze nearby minerals"
-msgstr ""
+msgstr "Анализ ближайших минералов"
 
 #: data/json/item_actions.json
 msgid "Pack CBM in pouch"
@@ -13634,7 +13668,7 @@ msgstr "Поиск GPS"
 
 #: data/json/item_actions.json
 msgid "CRAFT"
-msgstr ""
+msgstr "СБОРКА"
 
 #: data/json/item_actions.json
 msgid "Work on craft"
@@ -13650,11 +13684,19 @@ msgstr "Снять напряжение"
 
 #: data/json/item_actions.json
 msgid "Train skill"
-msgstr ""
+msgstr "Тренировать навык"
 
 #: data/json/item_actions.json
 msgid "Listen to music"
 msgstr "Слушать музыку"
+
+#: data/json/item_actions.json
+msgid "Use the planter"
+msgstr ""
+
+#: data/json/item_actions.json
+msgid "Collect a plant"
+msgstr "Собрать растение"
 
 #: data/json/item_category.json
 msgid "GUNS"
@@ -27089,12 +27131,12 @@ msgstr ""
 #: data/json/professions.json
 msgctxt "profession_male"
 msgid "Urban Explorer"
-msgstr ""
+msgstr "Городской исследователь"
 
 #: data/json/professions.json
 msgctxt "profession_female"
 msgid "Urban Explorer"
-msgstr ""
+msgstr "Городская исследовательница"
 
 #. ~ Profession (male Urban Explorer) description
 #: data/json/professions.json
@@ -28888,7 +28930,7 @@ msgstr ""
 
 #: data/json/skills.json
 msgid "Athletics"
-msgstr ""
+msgstr "Атлетика"
 
 #. ~ Description for {'str': 'Athletics'}
 #: data/json/skills.json
@@ -28898,6 +28940,10 @@ msgid ""
 "overall performance when swimming, reduces stamina consumption of physical "
 "activity, and reduces the impact of encumbrance."
 msgstr ""
+"Ваша способность эффективно совершать физически требовательные действия, "
+"такие как бег, прыжки, карабканье и плавание. Этот навык определяет общее "
+"умение плавать, снижает расход выносливости при физических активностях, и "
+"уменьшает влияние от стеснённой одежды."
 
 #: data/json/skills.json
 msgid "Fabrication"
@@ -29742,7 +29788,7 @@ msgstr "стенания"
 
 #: data/json/species.json
 msgid "gargling"
-msgstr ""
+msgstr "бульканье"
 
 #: data/json/species.json
 msgid "growling"
@@ -34149,7 +34195,7 @@ msgstr "защиты от ослепляющего блеска"
 
 #: data/json/tool_qualities.json
 msgid "shearing"
-msgstr "стрижка шерсти"
+msgstr "стрижки шерсти"
 
 #: data/json/tool_qualities.json data/mods/Aftershock/items/tool_quality.json
 msgid "churn"
@@ -34169,7 +34215,7 @@ msgstr[3] "изогнутые иглы"
 
 #: data/json/tool_qualities.json
 msgid "anesthesia"
-msgstr "анестезия"
+msgstr "анестезии"
 
 #: data/json/tool_qualities.json
 msgid "smoothing"
@@ -34257,7 +34303,7 @@ msgstr "самоподнятия домкратом"
 
 #: data/json/tool_qualities.json
 msgid "siphoning"
-msgstr "сифонирование"
+msgstr "сифонирования"
 
 #: data/json/tool_qualities.json
 msgid "chiseling"
@@ -34319,7 +34365,7 @@ msgstr "опиловки"
 
 #: data/json/tool_qualities.json
 msgid "clamping"
-msgstr "фиксация"
+msgstr "фиксации"
 
 #: data/json/tool_qualities.json
 msgid "pressurizing"
@@ -34327,63 +34373,63 @@ msgstr "сжатия"
 
 #: data/json/tool_qualities.json
 msgid "lockpicking"
-msgstr "взлом"
+msgstr "взлома"
 
 #: data/json/tool_qualities.json
 msgid "extraction"
-msgstr "извлечение"
+msgstr "извлечения"
 
 #: data/json/tool_qualities.json
 msgid "filtration"
-msgstr "фильтрация"
+msgstr "фильтрации"
 
 #: data/json/tool_qualities.json
 msgid "sanding"
-msgstr "шлифовка"
+msgstr "шлифовки"
 
 #: data/json/tool_qualities.json
 msgid "high voltage insulation"
-msgstr "высоковольтная изоляция"
+msgstr "высоковольтной изоляции"
 
 #: data/json/tool_qualities.json
 msgid "voltage measurement"
-msgstr "измерение напряжения"
+msgstr "измерения напряжения"
 
 #: data/json/tool_qualities.json
 msgid "fine pulling"
-msgstr "отлично тянущее"
+msgstr "точного извлечения"
 
 #: data/json/tool_qualities.json
 msgid "metal cutting"
-msgstr "резка металла"
+msgstr "резки металла"
 
 #: data/json/tool_qualities.json
 msgid "hot gripping"
-msgstr ""
+msgstr "удержания горячих предметов"
 
 #: data/json/tool_qualities.json
 msgid "hot containing"
-msgstr ""
+msgstr "хранения горячих жидкостей"
 
 #: data/json/tool_qualities.json
 msgid "swaging"
-msgstr ""
+msgstr "закручивания"
 
 #: data/json/tool_qualities.json
 msgid "glassblowing"
-msgstr ""
+msgstr "выдувания стекла"
 
 #: data/json/tool_qualities.json
 msgid "casing forming"
-msgstr ""
+msgstr "формовки гильз"
 
 #: data/json/tool_qualities.json
 msgid "casing pressing"
-msgstr ""
+msgstr "прессовки гильз"
 
 #: data/json/tool_qualities.json
 msgid "sleep aid"
-msgstr ""
+msgstr "улучшения сна"
 
 #: data/json/traps.json data/json/items/generic.json src/advanced_inv.cpp
 #: src/magic.cpp src/map_extras.cpp src/recipe.cpp
@@ -37235,6 +37281,9 @@ msgid ""
 "Lookin' good - is that blood?  Examine it to practice the Speech skill and "
 "give yourself a pep talk."
 msgstr ""
+"Отпадно выглядишь — это что, кровь? Осмотрите это зеркало чтобы "
+"попрактиковаться в выразительности и толкнуть вдохновляющую речь для себя "
+"же."
 
 #: data/json/furniture_and_terrain/furniture-decorative.json
 #: data/json/furniture_and_terrain/furniture-storage.json
@@ -37333,6 +37382,9 @@ msgid ""
 "just move?  Assuming it doesn't talk back, could be used to practice the "
 "Speech skill."
 msgstr ""
+"С ними можно пообщаться, или нацепить на них одежду. Выбирай, кто тебя "
+"осудит? Погоди… оно только что двинулось? Ладно, до тех пор, пока оно не "
+"начнёт отвечать, манекен можно использовать для тренировки навыка общения."
 
 #: data/json/furniture_and_terrain/furniture-decorative.json
 msgid "birdbath"
@@ -37429,6 +37481,7 @@ msgid "This plant is maturing."
 msgstr "Это растение находится в процессе созревания."
 
 #: data/json/furniture_and_terrain/furniture-domestic_plants.json
+#: src/iuse_actor.cpp
 msgid "seed"
 msgstr "посев"
 
@@ -37442,6 +37495,7 @@ msgstr ""
 "судьбу."
 
 #: data/json/furniture_and_terrain/furniture-domestic_plants.json
+#: src/iuse_actor.cpp
 msgid "seedling"
 msgstr "росток"
 
@@ -40618,6 +40672,9 @@ msgid ""
 "used as a workbench in a pinch, or tipped over to create a more solid "
 "obstacle."
 msgstr ""
+"Маленький металлический складной столик, идеально подходит для туристических"
+" поездок в дикую природу. На крайний случай сгодится как верстак, или его "
+"можно опрокинуть для создания более крепкого препятствия."
 
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "Flip tourist table"
@@ -40638,6 +40695,9 @@ msgid ""
 "This little metal table looks like a bear's had lunch off it.  Examine it to"
 " set it back upright to be less of a tripping hazard."
 msgstr ""
+"Этот металлический столик выглядит так, словно тут пообедал медведь. "
+"Осмотрите его, чтобы установить в вертикальное положение и устранить угрозу "
+"для спотыкания."
 
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "Set tourist table upright"
@@ -40659,6 +40719,8 @@ msgid ""
 "Sit down when you eat!  Examine to flip it on its side if you're feeling "
 "angry, or want a barricade in a hurry."
 msgstr ""
+"Присядь, чтобы поесть! Или осмотри его чтобы перевернуть на бок, если "
+"бесишься, или хочешь создать быстрое укрытие."
 
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "Flip table"
@@ -40694,7 +40756,7 @@ msgstr "Вы поставили стол обратно на ножки."
 
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "coffee table"
-msgstr ""
+msgstr "кофейный столик"
 
 #. ~ Description for coffee table
 #: data/json/furniture_and_terrain/furniture-surfaces.json
@@ -40702,33 +40764,36 @@ msgid ""
 "a low table for livingrooms.  Examine it to tip it onto its side, to slow "
 "down the horde in a pinch."
 msgstr ""
+"маленький столик, встречающийся в гостевых комнатах. Осмотрите его, чтобы "
+"перевернуть на бок для в случае, если вам преследует орда."
 
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "Flip coffee table"
-msgstr ""
+msgstr "Перевернуть кофейный столик"
 
 #. ~ Message for furniture 'coffee table'
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "You kick the coffee table onto its side."
-msgstr ""
+msgstr "Вы опрокидываете кофейный столик на бок."
 
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "flipped coffee table"
-msgstr ""
+msgstr "перевёрнутый кофейный столик"
 
 #. ~ Description for flipped coffee table
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "a low table knocked onto its side.  Examine to upright it."
 msgstr ""
+"низкий столик, лежащий на боку. Осмотрите его, чтобы установить прямо."
 
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "Set coffee table upright"
-msgstr ""
+msgstr "Установить кофейный столик в вертикальное положение"
 
 #. ~ Message for furniture 'flipped coffee table'
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "You tip the coffee table back onto its feet."
-msgstr ""
+msgstr "Вы поставили кофейный столик обратно на ножки."
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "tatami mat"
@@ -40880,13 +40945,26 @@ msgstr ""
 "Подстилка из натянутой водонепроницаемой ткани. Отделяет грязь от палатки."
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
+msgid "skylight canvas floor"
+msgstr ""
+
+#. ~ Description for skylight canvas floor
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid ""
+"Flooring made out of stretched, waterproof cloth.  Helps keep the dirt out "
+"of the tent. Has a plastic skylight to let light"
+msgstr ""
+
+#: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "canvas wall"
 msgstr "брезентовая стена"
 
 #. ~ Description for canvas wall
 #: data/json/furniture_and_terrain/furniture-terrains.json
-msgid "A wall made of stretched, waterproof cloth."
-msgstr "Стена из натянутой водонепроницаемой ткани."
+msgid ""
+"A wall made of stretched, waterproof cloth and supported by wooden or metal "
+"stakes."
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
 #: data/json/furniture_and_terrain/terrain-doors.json
@@ -40896,38 +40974,46 @@ msgstr "Стена из натянутой водонепроницаемой т
 msgid "slap!"
 msgstr "хлопок!"
 
-#. ~ Description for canvas wall
 #: data/json/furniture_and_terrain/furniture-terrains.json
-msgid "A wall made of stretched, heavy-duty, waterproof cloth."
-msgstr "Стена из натянутой прочной водонепроницаемой ткани."
+msgid "heavy-duty canvas wall"
+msgstr ""
+
+#. ~ Description for heavy-duty canvas wall
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid ""
+"A wall made of stretched, waterproof cloth and supported by wooden or metal "
+"stakes. It has been strenghtened with plastic sheets."
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "canvas flap"
 msgstr "брезентовая заслонка"
 
 #. ~ Description for canvas flap
+#. ~ Description for heavy-duty canvas flap
 #: data/json/furniture_and_terrain/furniture-terrains.json
-msgid "This canvas flap door could be pulled aside."
-msgstr "Эту брезентовую заслонку можно откинуть в сторону."
+msgid ""
+"This canvas flap door could be pulled aside. If you examine it closely, you "
+"could peek outside."
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "open canvas flap"
 msgstr "открытая брезентовая заслонка"
 
 #. ~ Description for open canvas flap
+#. ~ Description for open heavy-duty canvas flap
 #: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "This canvas flap door has been pulled aside."
 msgstr "Эту брезентовую заслонку откинули в сторону."
 
-#. ~ Description for canvas flap
 #: data/json/furniture_and_terrain/furniture-terrains.json
-msgid "This heavy canvas flap door could be pulled aside."
-msgstr "Эту тяжёлую брезентовую заслонку можно откинуть в сторону."
+msgid "heavy-duty canvas flap"
+msgstr ""
 
-#. ~ Description for open canvas flap
 #: data/json/furniture_and_terrain/furniture-terrains.json
-msgid "This heavy canvas flap door has been pulled aside."
-msgstr "Эту тяжёлую брезентовую заслонку откинули в сторону."
+msgid "open heavy-duty canvas flap"
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "groundsheet"
@@ -53590,6 +53676,7 @@ msgstr ""
 "для вашего здоровья."
 
 #: data/json/items/chemicals_and_resources.json
+#: data/mods/flowerpots_plus/items/overrides.json
 msgid "liquid fertilizer"
 msgid_plural "liquid fertilizer"
 msgstr[0] "жидкое удобрение"
@@ -53603,6 +53690,7 @@ msgid "A nutrient rich elixir for plants."
 msgstr "Богатый питательными веществами эликсир для растений."
 
 #: data/json/items/chemicals_and_resources.json
+#: data/mods/flowerpots_plus/items/overrides.json
 msgid "commercial fertilizer"
 msgid_plural "commercial fertilizer"
 msgstr[0] "химическое удобрение"
@@ -54933,10 +55021,10 @@ msgstr "Небольшой открытый полиэтиленовый пак�
 #: data/json/items/containers.json
 msgid "resealable plastic bag"
 msgid_plural "resealable plastic bags"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "пластиковый пакет с застёжкой"
+msgstr[1] "пластиковых пакета с застёжкой"
+msgstr[2] "пластиковых пакетов с застёжкой"
+msgstr[3] "пластиковые пакеты с застёжкой"
 
 #. ~ Description for {'str': 'resealable plastic bag'}
 #: data/json/items/containers.json
@@ -54944,6 +55032,9 @@ msgid ""
 "A plastic bag with a zipper closure that lets it be resealed.  Essentially "
 "trash, though could carry liquids in a pinch."
 msgstr ""
+"Пластиковый пакет с застёжкой-змейкой, позволяющий многократное открытие и "
+"закрытие. По сути, это мусор, но в крайнем случае сгодится для переноса "
+"жидкостей."
 
 #: data/json/items/containers.json
 msgid "body bag"
@@ -56259,10 +56350,10 @@ msgstr[3] "Подключенные к электросети 3D-принтер�
 #: data/json/items/fake.json
 msgid "Advanced Grid 3D Printer"
 msgid_plural "Advanced Grid 3D Printers"
-msgstr[0] "Подключенный к электросети продвинутый 3D-принтер"
-msgstr[1] "Подключенных к электросети продвинутых 3D-принтера"
-msgstr[2] "Подключенных к электросети продвинутых 3D-принтеров"
-msgstr[3] "Подключенных к электросети продвинутых 3D-принтеров"
+msgstr[0] "подключенный к сети продвинутый 3D-принтер"
+msgstr[1] "подключенных к сети продвинутых 3D-принтера"
+msgstr[2] "подключенных к сети продвинутых 3D-принтеров"
+msgstr[3] "подключенные к сети продвинутые 3D-принтеры"
 
 #: data/json/items/fake.json
 msgid "installed reloading press"
@@ -57164,7 +57255,8 @@ msgstr ""
 "дальнейшем высыхании известна как канифоль и часто используется в качестве "
 "флюса для припоя."
 
-#: data/json/items/generic.json
+#: data/json/items/generic.json data/mods/flowerpots_plus/ammo_types.json
+#: data/mods/flowerpots_plus/items/overrides.json
 msgid "fertilizer"
 msgid_plural "fertilizers"
 msgstr[0] "удобрение"
@@ -61503,10 +61595,10 @@ msgstr "Разнообразное ПО для разных целей. Наве
 #: data/json/items/software.json
 msgid "UniTool"
 msgid_plural "UniTool"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "УниСофт"
+msgstr[1] "УниСофт"
+msgstr[2] "УниСофт"
+msgstr[3] "УниСофт"
 
 #. ~ Description for {'str_sp': 'UniTool'}
 #: data/json/items/software.json
@@ -61514,6 +61606,8 @@ msgid ""
 "A versatile software toolkit - unzips archives, flashes drives, and a "
 "variety of other digital tasks."
 msgstr ""
+"Универсальный набор программного обеспечения — может распаковать архивы, "
+"работать с флешками, и всякие прочие цифровые задачи."
 
 #: data/json/items/software.json
 msgid "hackPRO"
@@ -73505,13 +73599,13 @@ msgstr[3] "разгрузка выживальщика"
 #. ~ Use action holster_msg for {'str': 'MOLLE pack'}.
 #: data/json/items/armor/holster.json data/json/items/armor/storage.json
 msgid "You stow your %s"
-msgstr ""
+msgstr "Вы зачехляете %s."
 
 #. ~ Use action holster_prompt for {'str': 'survivor harness', 'str_pl':
 #. 'survivor harnesses'}.
 #: data/json/items/armor/holster.json
 msgid "Stow equipment"
-msgstr ""
+msgstr "Зачехлить снаряжение"
 
 #. ~ Description for {'str': 'survivor harness', 'str_pl': 'survivor
 #. harnesses'}
@@ -80312,14 +80406,14 @@ msgid "A lacy white wedding veil."
 msgstr "Белая кружевная свадебная вуаль."
 
 #: data/json/items/armor/misc.json
-msgid "tarpaulin"
-msgid_plural "tarpaulins"
-msgstr[0] "брезент"
-msgstr[1] "брезента"
-msgstr[2] "брезентов"
-msgstr[3] "брезент"
+msgid "plastic tarp"
+msgid_plural "plastic tarps"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#. ~ Description for {'str': 'tarpaulin'}
+#. ~ Description for {'str': 'plastic tarp'}
 #: data/json/items/armor/misc.json
 msgid ""
 "A plastic sheet with several grommets for securing it with rope or cord.  "
@@ -81928,10 +82022,10 @@ msgstr ""
 #: data/json/items/armor/shields.json
 msgid "large ballistic shield"
 msgid_plural "large ballistic shields"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "высокий баллистический щит"
+msgstr[1] "высоких баллистических щита"
+msgstr[2] "высоких баллистических щитов"
+msgstr[3] "высокие баллистические щиты"
 
 #. ~ Description for {'str': 'large ballistic shield'}
 #: data/json/items/armor/shields.json
@@ -81940,6 +82034,9 @@ msgid ""
 " pistol bullets.  Covers the body and legs quite well, but is much heavier "
 "and more encumbering than lighter models."
 msgstr ""
+"Высокий композитный щит, используемый отрядами спецназа SWAT и другими "
+"вооруженными силами, рассчитанный на пистолетные пули. Неплохо прикрывает "
+"тело и ноги, но гораздо тяжелее и неудобнее, чем более легкие модели."
 
 #: data/json/items/armor/shields.json
 msgid "leather-reinforced shield"
@@ -82676,7 +82773,7 @@ msgstr[3] "рюкзак MOLLE"
 #. ~ Use action holster_prompt for {'str': 'MOLLE pack'}.
 #: data/json/items/armor/storage.json
 msgid "Stow gear"
-msgstr ""
+msgstr "Зачехлить снаряжение"
 
 #. ~ Description for {'str': 'MOLLE pack'}
 #: data/json/items/armor/storage.json
@@ -82685,6 +82782,9 @@ msgid ""
 "backpack.  Covered with pockets and equipment straps, it strikes a fine "
 "balance between storage space and encumbrance."
 msgstr ""
+"Лёгкий военный рюкзак продвинутого модульного типа MOLLE. Весь увешан "
+"карманами и ремнями с крепежом для снаряжения. Прекрасный баланс между "
+"вместимостью и стеснением."
 
 #: data/json/items/armor/storage.json
 msgid "petpack"
@@ -88985,10 +89085,10 @@ msgstr ""
 #: data/json/items/book/maps.json
 msgid "urban explorer's map"
 msgid_plural "urban explorer's maps"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "карта городского исследователя"
+msgstr[1] "карты городского исследователя"
+msgstr[2] "карт городского исследователя"
+msgstr[3] "карты городского исследователя"
 
 #. ~ Use action message for {'str': "urban explorer's map"}.
 #: data/json/items/book/maps.json
@@ -113298,15 +113398,17 @@ msgstr "Вкусная выпечка с фруктовой начинкой."
 #: data/json/items/comestibles/wheat.json
 msgid "cream pie"
 msgid_plural "cream pies"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "кремовый пирог"
+msgstr[1] "кремовых пирога"
+msgstr[2] "кремовых пирогов"
+msgstr[3] "кремовые пироги"
 
 #. ~ Description for cream pie
 #: data/json/items/comestibles/wheat.json
 msgid "A delicious baked pie filled with a white, thick cream."
 msgstr ""
+"Аппетитно выглядящий приготовленный пирог, плотно заправленный густым белым "
+"кремом."
 
 #: data/json/items/comestibles/wheat.json
 msgid "cheese pizza"
@@ -128199,10 +128301,10 @@ msgstr ""
 #: data/json/items/melee/bludgeons.json
 msgid "battletorch (lit)"
 msgid_plural "battletorches (lit)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "боевой факел (горит)"
+msgstr[1] "боевых факела (горят)"
+msgstr[2] "боевых факелов (горят)"
+msgstr[3] "боевые факелы (горят)"
 
 #. ~ Use action msg for {'str': 'battletorch (lit)', 'str_pl': 'battletorches
 #. (lit)'}.
@@ -132098,10 +132200,10 @@ msgstr ""
 #: data/json/items/ranged/archery.json
 msgid "aluminum field point arrow"
 msgid_plural "aluminum field point arrows"
-msgstr[0] "алюминиевая стрела (острый наконечник)"
-msgstr[1] "алюминиевые стрелы (острый наконечник)"
-msgstr[2] "алюминиевых стрел (острый наконечник)"
-msgstr[3] "алюминиевые стрелы (острый наконечник)"
+msgstr[0] "алюминиевая острая стрела"
+msgstr[1] "алюминиевых острых стрелы"
+msgstr[2] "алюминиевых острых стрел"
+msgstr[3] "алюминиевые острые стрелы"
 
 #. ~ Description for {'str': 'aluminum field point arrow'}
 #: data/json/items/ranged/archery.json
@@ -132604,10 +132706,10 @@ msgstr ""
 #: data/json/items/ranged/crossbows.json
 msgid "aluminum field point bolt"
 msgid_plural "aluminum field point bolts"
-msgstr[0] "алюминиевый болт (острый наконечник) "
-msgstr[1] "алюминиевых болта (острый наконечник) "
-msgstr[2] "алюминиевых болтов (острый наконечник) "
-msgstr[3] "алюминиевые болты (острый наконечник) "
+msgstr[0] "алюминиевый острый болт"
+msgstr[1] "алюминиевых острых болта"
+msgstr[2] "алюминиевых острых болтов"
+msgstr[3] "алюминиевые острые болты"
 
 #. ~ Description for {'str': 'aluminum field point bolt'}
 #: data/json/items/ranged/crossbows.json
@@ -135939,10 +136041,10 @@ msgstr[3] ""
 #: data/json/items/tool/electronics.json
 msgid "wrist computer"
 msgid_plural "wrist computers"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "компьютер на запястье"
+msgstr[1] "компьютера на запястье"
+msgstr[2] "компьютеров на запястье"
+msgstr[3] "компьютеры на запястье"
 
 #. ~ Use action msg for {'str': 'wrist computer'}.
 #. ~ Use action msg for {'str': 'wrist control computer'}.
@@ -135970,10 +136072,10 @@ msgstr ""
 #: data/json/items/tool/electronics.json
 msgid "wrist computer - music"
 msgid_plural "wrist computers - music"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "компьютер на запястье (музыка)"
+msgstr[1] "компьютера на запястье (музыка)"
+msgstr[2] "компьютеров на запястье (музыка)"
+msgstr[3] "компьютеры на запястье (музыка)"
 
 #. ~ Description for {'str': 'wrist computer - music', 'str_pl': 'wrist
 #. computers - music'}
@@ -135990,10 +136092,10 @@ msgstr ""
 #: data/json/items/tool/electronics.json
 msgid "wrist computer - Flashlight"
 msgid_plural "wrist computers - Flashlight"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "компьютер на запястье (фонарик)"
+msgstr[1] "компьютера на запястье (фонарик)"
+msgstr[2] "компьютеров на запястье (фонарик)"
+msgstr[3] "компьютеры на запястье (фонарик)"
 
 #. ~ Use action menu_text for {'str': 'wrist computer - Flashlight', 'str_pl':
 #. 'wrist computers - Flashlight'}.
@@ -136018,26 +136120,26 @@ msgstr "Вы выключаете фонарик."
 #: data/json/items/tool/electronics.json
 msgid "wrist control computer"
 msgid_plural "wrist control computers"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "управляющий компьютер на запястье"
+msgstr[1] "управляющих компьютера на запястье"
+msgstr[2] "управляющих компьютеров на запястье"
+msgstr[3] "управляющие компьютеры на запястье"
 
 #: data/json/items/tool/electronics.json
 msgid "wrist control computer - music"
 msgid_plural "wrist control computers - music"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "управляющий компьютер на запястье (музыка)"
+msgstr[1] "управляющих компьютера на запястье (музыка)"
+msgstr[2] "управляющих компьютеров на запястье (музыка)"
+msgstr[3] "управляющие компьютеры на запястье (музыка)"
 
 #: data/json/items/tool/electronics.json
 msgid "wrist control computer - Flashlight"
 msgid_plural "wrist control computers - Flashlight"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "управляющий компьютер на запястье (фонарик)"
+msgstr[1] "управляющих компьютера на запястье (фонарик)"
+msgstr[2] "управляющих компьютеров на запястье (фонарик)"
+msgstr[3] "управляющие компьютеры на запястье (фонарик)"
 
 #. ~ Use action msg for {'str': 'wrist control computer - Flashlight',
 #. 'str_pl': 'wrist control computers - Flashlight'}.
@@ -137690,10 +137792,10 @@ msgstr ""
 #: data/json/items/tool/explosives.json
 msgid "Molotov cocktail (lit)"
 msgid_plural "Molotov cocktails (lit)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "коктейль Молотова (горит)"
+msgstr[1] "коктейля Молотова (горят)"
+msgstr[2] "коктейлей Молотова (горят)"
+msgstr[3] "коктейль Молотова (горит)"
 
 #. ~ Description for {'str': 'Molotov cocktail (lit)', 'str_pl': 'Molotov
 #. cocktails (lit)'}
@@ -138130,10 +138232,10 @@ msgstr ""
 #: data/json/items/tool/fire.json
 msgid "refillable lighter (lit)"
 msgid_plural "refillable lighters (lit)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "заправляемая зажигалка (горит)"
+msgstr[1] "заправляемых зажигалки (горят)"
+msgstr[2] "заправляемых зажигалок (горят)"
+msgstr[3] "заправляемая зажигалка (горит)"
 
 #. ~ Use action msg for {'str': 'refillable lighter (lit)', 'str_pl':
 #. 'refillable lighters (lit)'}.
@@ -138231,10 +138333,10 @@ msgstr ""
 #: data/json/items/tool/fire.json
 msgid "survivor lighter"
 msgid_plural "survivor lighters"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "зажигалка выживальщика"
+msgstr[1] "зажигалки выживальщика"
+msgstr[2] "зажигалок выживальщика"
+msgstr[3] "зажигалка выживальщика"
 
 #. ~ Description for {'str': 'survivor lighter'}
 #: data/json/items/tool/fire.json
@@ -138242,6 +138344,9 @@ msgid ""
 "This makeshift refillable lighter contains a simple wick and ignitor that "
 "can be used with improvised fuels such as diesel or lamp oil."
 msgstr ""
+"Cамодельная заправляемая зажигалка, имеет простой фитиль с запальником и "
+"может заправляться подручными горючими веществами, такими как дизельное "
+"топливо или ламповое масло."
 
 #: data/json/items/tool/firefighting.json
 msgid "crash axe"
@@ -139595,10 +139700,10 @@ msgstr ""
 #: data/json/items/tool/lighting.json
 msgid "torch (lit)"
 msgid_plural "torches (lit)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "факел (горит)"
+msgstr[1] "факела (горят)"
+msgstr[2] "факелов (горят)"
+msgstr[3] "факелы (горят)"
 
 #. ~ Use action msg for {'str': 'torch (lit)', 'str_pl': 'torches (lit)'}.
 #. ~ Use action msg for {'str': 'everburning torch (lit)', 'str_pl':
@@ -141472,8 +141577,8 @@ msgstr "Вы установили дожделовку и стали ждать,
 #. ~ Description for {'str': 'tarp raincatcher'}
 #: data/json/items/tool/raincatchers.json
 msgid ""
-"Some sticks and string with a tarpaulin to set up an improvised raincatcher."
-msgstr "Палки, брезент и верёвочка для установки самодельной дожделовки."
+"Some sticks and string with a tarp to set up an improvised raincatcher."
+msgstr ""
 
 #: data/json/items/tool/science.json
 msgid "barometer"
@@ -145907,10 +146012,10 @@ msgstr ""
 #: data/json/items/vehicle/engineering.json
 msgid "steel boom crane"
 msgid_plural "steel boom cranes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "стальной стреловой кран"
+msgstr[1] "стальных стреловых крана"
+msgstr[2] "стальных стреловых кранов"
+msgstr[3] "стальные стреловые краны"
 
 #. ~ Description for {'str': 'steel boom crane'}
 #: data/json/items/vehicle/engineering.json
@@ -145918,6 +146023,9 @@ msgid ""
 "A large rigid steel boom.  If attached to a frame it could be used to lift "
 "up to 20 metric tonnes (or a bit over 44,000 pounds)."
 msgstr ""
+"Большая жёсткая стальная стрела. Если прикрепить к корпусу, то её можно "
+"будет использовать, чтобы поднять до 20 метрических тонн (или чуть больше "
+"44000 фунтов)."
 
 #: data/json/items/vehicle/engineering.json
 msgid "telescopic cantilever crane"
@@ -161087,7 +161195,7 @@ msgstr ""
 
 #: data/json/mutations/mutations.json
 msgid "Strong Stomach"
-msgstr "Сильный желудок"
+msgstr "Крепкий желудок"
 
 #. ~ Description for {'str': 'Strong Stomach'}
 #: data/json/mutations/mutations.json
@@ -161404,7 +161512,7 @@ msgstr ""
 
 #: data/json/mutations/mutations.json
 msgid "Shaolin Adept"
-msgstr "Шаолиньский монах"
+msgstr "Адепт Шаолинь"
 
 #. ~ Description for {'str': 'Shaolin Adept'}
 #: data/json/mutations/mutations.json
@@ -161731,7 +161839,7 @@ msgstr "У вас хрупкая кожа. Физическая броня ум�
 
 #: data/json/mutations/mutations.json
 msgid "Hates Vegetables"
-msgstr "Нелюбовь к овощам"
+msgstr "Отвращение к овощам"
 
 #. ~ Description for {'str': 'Hates Vegetables'}
 #: data/json/mutations/mutations.json
@@ -161745,7 +161853,7 @@ msgstr ""
 
 #: data/json/mutations/mutations.json
 msgid "Hates Fruit"
-msgstr "Нелюбовь к фруктам"
+msgstr "Отвращение к фруктам"
 
 #. ~ Description for {'str': 'Hates Fruit'}
 #: data/json/mutations/mutations.json
@@ -161770,7 +161878,7 @@ msgstr ""
 
 #: data/json/mutations/mutations.json
 msgid "Junkfood Intolerance"
-msgstr "Неприятие джанк-фуд"
+msgstr "Непереносимость джанк-фуд"
 
 #. ~ Description for {'str': 'Junkfood Intolerance'}
 #: data/json/mutations/mutations.json
@@ -161785,7 +161893,7 @@ msgstr ""
 
 #: data/json/mutations/mutations.json
 msgid "Grain Intolerance"
-msgstr "Непереносимость зерновых культур"
+msgstr "Непереносимость злаков"
 
 #. ~ Description for {'str': 'Grain Intolerance'}
 #: data/json/mutations/mutations.json
@@ -161893,7 +162001,7 @@ msgstr ""
 
 #: data/json/mutations/mutations.json
 msgid "Animal Discord"
-msgstr "Неладящий с животными"
+msgstr "Не в ладах с животными"
 
 #. ~ Description for {'str': 'Animal Discord'}
 #: data/json/mutations/mutations.json
@@ -161916,8 +162024,8 @@ msgid ""
 "Natural animals like dogs and wolves see you as prey, and are liable to "
 "attack you on sight."
 msgstr ""
-"Лесные хищники (например, волки) рассматривают вас в качестве добычи и "
-"поэтому более склонны атаковать вас."
+"Лесные хищники вроде диких собак и волков рассматривают вас в качестве "
+"добычи и поэтому более склонны атаковать вас."
 
 #: data/json/mutations/mutations.json
 msgid "Slow Reader"
@@ -161990,7 +162098,7 @@ msgstr ""
 
 #: data/json/mutations/mutations.json
 msgid "Savant"
-msgstr "Савант"
+msgstr "Савантизм"
 
 #. ~ Description for {'str': 'Savant'}
 #: data/json/mutations/mutations.json
@@ -208270,23 +208378,23 @@ msgstr "конференц-центр"
 
 #: data/json/overmap/overmap_terrain/overmap_terrain_dams.json
 msgid "Dam"
-msgstr ""
+msgstr "плотина"
 
 #: data/json/overmap/overmap_terrain/overmap_terrain_dams.json
 msgid "Dam Passthrough"
-msgstr ""
+msgstr "водосброс плотины"
 
 #: data/json/overmap/overmap_terrain/overmap_terrain_dams.json
 msgid "Dam (overpass)"
-msgstr ""
+msgstr "плотина (эстакада)"
 
 #: data/json/overmap/overmap_terrain/overmap_terrain_dams.json
 msgid "Dam (ground)"
-msgstr ""
+msgstr "плотина (земля)"
 
 #: data/json/overmap/overmap_terrain/overmap_terrain_dams.json
 msgid "Dam (ramp)"
-msgstr ""
+msgstr "плотина (рампа)"
 
 #: data/json/overmap/overmap_terrain/overmap_terrain_evac_center.json
 #: data/mods/alt_map_key/overmap_terrain.json
@@ -225189,11 +225297,9 @@ msgstr "Воронка, собирающая дождевую воду в бак
 #. ~ Description for {'str': 'tarp raincatcher'}
 #: data/json/vehicleparts/vehicle_parts.json
 msgid ""
-"An improvised raincatcher made using a tarpaulin, to collect rainwater into "
-"the tank beneath it."
+"An improvised raincatcher made using a tarp, to collect rainwater into the "
+"tank beneath it."
 msgstr ""
-"Импровизированный дождеприемник, сделанный из брезента, для сбора дождевой "
-"воды в резервуар под ним."
 
 #: data/json/vehicleparts/vehicle_parts.json
 msgid "scoop"
@@ -236629,7 +236735,7 @@ msgstr "Жёсткое наказание"
 #: data/mods/CRT_EXPANSION/martial/CRT_EnforcementBuff.json
 #, c-format
 msgid "You clock %s's in a weak spot to knock em down"
-msgstr "Вы целитесь в уязвимое место %s, чтобы вырубить его"
+msgstr "Вы целитесь в уязвимое место (%s), чтобы вырубить цель"
 
 #: data/mods/CRT_EXPANSION/martial/CRT_EnforcementBuff.json
 #, c-format
@@ -256896,6 +257002,89 @@ msgstr ""
 "Сочетает вашу способность управлять кислотой и биологические факторы, давая "
 "иммунитет к кислотным воздействиям."
 
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Sparrow's Strike"
+msgstr ""
+
+#. ~ Description for {'str': "Sparrow's Strike"}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Strike like a sparrow, kill thy enemy quickly, before they can act."
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Treechopping Cut"
+msgstr ""
+
+#. ~ Description for {'str': 'Treechopping Cut'}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid ""
+"Swing your blade with enough force to sever a tree in twain, as well as your"
+" enemies' heads"
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Hornet's Stinger"
+msgstr ""
+
+#. ~ Description for {'str': "Hornet's Stinger"}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid ""
+"Stab through not just your enemy, but also right through their friend behind"
+" them!"
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Traveling Strike"
+msgstr ""
+
+#. ~ Description for {'str': 'Traveling Strike'}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "You have places to be, you cannot let this enemy get in your path!"
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Teleporting Strike"
+msgstr ""
+
+#. ~ Description for {'str': 'Teleporting Strike'}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "There's nothing personal about this conflict, you just need them dead."
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Execution Flurry"
+msgstr ""
+
+#. ~ Description for {'str': 'Execution Flurry'}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid ""
+"A storm of slashes approaching your enemies that will truly determine which "
+"of you is the more motivated one."
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Iaido"
+msgstr ""
+
+#. ~ Description for {'str': 'Iaido'}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid ""
+"Strike your enemy with the draw of your weapon for an attack that is very "
+"efficient."
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+#: data/mods/MagicalNights/effects/effects.json
+msgid "Blademaster's Repose"
+msgstr ""
+
+#. ~ Description for {'str': "Blademaster's Repose"}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid ""
+"When your life relies on your reflexes and your blade, it is natural to want"
+" to meditate in order to ensure your reflexes are just as razor sharp."
+msgstr ""
+
 #: data/mods/MagicalNights/Spells/classless.json
 #: data/mods/MagicalNights/Spells/manatouched.json
 msgid "Crystallize Mana"
@@ -258825,6 +259014,7 @@ msgid "Your reflexes are heightened!"
 msgstr "Ваши рефлексы ускорились!"
 
 #. ~ Remove message for effect(s) 'Cat's Grace'.
+#. ~ Remove message for effect(s) 'Blademaster's Repose'.
 #: data/mods/MagicalNights/effects/effects.json
 msgid "Your reflexes return to normal."
 msgstr "Ваши рефлексы возвращаются к обычному уровню."
@@ -259049,6 +259239,16 @@ msgstr ""
 #. ~ Remove message for effect(s) 'Adventurer's Cure'.
 #: data/mods/MagicalNights/effects/effects.json
 msgid "You feel the anti-poison poultice wearing down in effect."
+msgstr ""
+
+#. ~ Description of effect 'Blademaster's Repose'.
+#: data/mods/MagicalNights/effects/effects.json
+msgid "Your reflexes are razor-sharp!"
+msgstr ""
+
+#. ~ Apply message for effect(s) 'Blademaster's Repose'.
+#: data/mods/MagicalNights/effects/effects.json
+msgid "As you finish your meditation, you feel your reflexes heighten!"
 msgstr ""
 
 #: data/mods/MagicalNights/items/alchemy_items.json
@@ -261065,6 +261265,56 @@ msgid ""
 "environment."
 msgstr ""
 
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid "Studying the Blade"
+msgid_plural "copies of Studying the Blade"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'Studying the Blade', 'str_pl': 'copies of
+#. Studying the Blade'}
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid ""
+"Interspersed with weeaboo stories that would make a 5chan board "
+"sarcastically clap, you find some surprisingly detailed notes on a few "
+"specific techniques. But there's no chance they work... right?"
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid "Swiftly Slashing"
+msgid_plural "copies of Swiftly Slashing"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'Swiftly Slashing', 'str_pl': 'copies of Swiftly
+#. Slashing'}
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid ""
+"A collection of haikus detailing the importance of swiftness when wielding a"
+" blade, as well as how to apply the philosophy more generally. Just as the "
+"descriptions of the techniques are concise, so must your strikes be."
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid "Strong like Steel"
+msgid_plural "copies of Strong like Steel"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'Strong like Steel', 'str_pl': 'copies of Strong
+#. like Steel'}
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid ""
+"A historical text on the importance of the swordsman being just as strong "
+"and sturdy as his blade, complete with illustrations and proverbs."
+msgstr ""
+
 #: data/mods/MagicalNights/items/martial_notes.json
 msgid "Martial Note"
 msgid_plural "Martial Notes"
@@ -261200,6 +261450,112 @@ msgstr[3] ""
 msgid ""
 "Adventuring tends to result in a good amount of small cuts and bruises that "
 "might not be life-threatening, but boy do they hurt like hell!"
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Sparrow's Strike"
+msgid_plural "Notes on Sparrow's Strike"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': "Note on Sparrow's Strike", 'str_pl': "Notes on
+#. Sparrow's Strike"}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "You must strike like a sparrow and attack before your enemy may react"
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Treechopping Cut"
+msgid_plural "Notes on Treechopping Cut"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'Note on Treechopping Cut', 'str_pl': 'Notes on
+#. Treechopping Cut'}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Ever wanted to chop down a tree in a single strike? Now you can!"
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Hornet's Stinger"
+msgid_plural "Notes on Hornet's Stinger"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': "Note on Hornet's Stinger", 'str_pl': "Notes on
+#. Hornet's Stinger"}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid ""
+"Much like a hornet's stinger stabs right through your skin, you must stab "
+"right through your enemies."
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Traveling Strike"
+msgid_plural "Notes on Traveling Strike"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'Note on Traveling Strike', 'str_pl': 'Notes on
+#. Traveling Strike'}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid ""
+"A technique for when you're on the move and you don't want to stop in place "
+"and cut your enemy down"
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Execution Flurry"
+msgid_plural "Notes on Execution Flurry"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'Note on Execution Flurry', 'str_pl': 'Notes on
+#. Execution Flurry'}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid ""
+"You are a storm that is approaching, preparing to devastate your enemies."
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Iaido"
+msgid_plural "Notes on Iaido"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'Note on Iaido', 'str_pl': 'Notes on Iaido'}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid ""
+"Attacking your enemy in the same breath that you draw your sword is a recipe"
+" for efficient combat."
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Blademaster's Repose"
+msgid_plural "Notes on Blademaster's Repose"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': "Note on Blademaster's Repose", 'str_pl': "Notes
+#. on Blademaster's Repose"}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid ""
+"When your reflexes and your blade are what stands between you and death, you"
+" must make sure that both are razor-sharp."
 msgstr ""
 
 #: data/mods/MagicalNights/items/materials.json
@@ -265290,10 +265646,10 @@ msgstr ""
 #: data/mods/MagicalNights/items/enchanted/enchanted_misc.json
 msgid "everburning torch (lit)"
 msgid_plural "everburning torches (lit)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "вечногорящий факел (горит)"
+msgstr[1] "вечногорящих факела (горят)"
+msgstr[2] "вечногорящих факелов (горят)"
+msgstr[3] "вечногорящие факелы (горят)"
 
 #: data/mods/MagicalNights/items/enchanted/enchanted_misc.json
 msgid "endless flask"
@@ -268187,6 +268543,18 @@ msgid ""
 "Adventurers are the jack-of-all-trades of the physical realm, not "
 "specializing in any one aspect prominently due to the variety encountered in"
 " their journeys."
+msgstr ""
+
+#: data/mods/MagicalNights/traits/classes.json
+msgid "Blademaster"
+msgstr ""
+
+#. ~ Description for Blademaster
+#: data/mods/MagicalNights/traits/classes.json
+msgid ""
+"Blademasters have studied the art of the blade extensively, honing their "
+"ability to strike fast and strike true.  Now you can look like your favorite"
+" anime character as you slay Zombies."
 msgstr ""
 
 #. ~ Mutation class name
@@ -271385,6 +271753,245 @@ msgstr ""
 "Полимерный магазин на 21 патрон для огнестрельного оружия Leadworks LLC 9x19"
 " мм. Легкий и надежный, но несколько сложнее перезаряжать."
 
+#: data/mods/flowerpots_plus/modinfo.json
+msgid "FlowerPots++"
+msgstr "Горшки для растений++"
+
+#. ~ Description for FlowerPots++
+#: data/mods/flowerpots_plus/modinfo.json
+msgid "Adds flower pots to grow plants on the go."
+msgstr "Добавляет цветочные горшки для выращивания всякого на ходу."
+
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid "POWER-GRO planter MK-II"
+msgid_plural "POWER-GRO planter MK-IIs"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'POWER-GRO planter MK-II'}
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid ""
+"The POWER-GRO planter MK-II is the ultimate solution for indoors growing. A whole farm right at your kitchen.\n"
+"By reading this label you agree that POWER-GRO is not liable for any radiation related incidents, and waive any rights to sue POWER-GRO.\n"
+"Consumes up to 5 seeds and 5 units of fertilizer per use."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid "POWER-GRO planter MK-II (seed)"
+msgid_plural "POWER-GRO planter MK-II (seed)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'POWER-GRO planter MK-II (seed)'}
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid ""
+"The POWER-GRO planter MK-II is the ultimate solution for indoors growing. A whole farm right at your kitchen.\n"
+"By reading this label you agree that POWER-GRO is not liable for any radiation related incidents, and waive any rights to sue POWER-GRO.\n"
+"This one has a seed in it."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid "POWER-GRO planter MK-II (seedling)"
+msgid_plural "POWER-GRO planter MK-II (seedling)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'POWER-GRO planter MK-II (seedling)'}
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid ""
+"The POWER-GRO planter MK-II is the ultimate solution for indoors growing. A whole farm right at your kitchen.\n"
+"By reading this label you agree that POWER-GRO is not liable for any radiation related incidents, and waive any rights to sue POWER-GRO.\n"
+"The seed is sprouting."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid "POWER-GRO planter MK-II (mature)"
+msgid_plural "POWER-GRO planter MK-II (mature)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'POWER-GRO planter MK-II (mature)'}
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid ""
+"The POWER-GRO planter MK-II is the ultimate solution for indoors growing. A whole farm right at your kitchen.\n"
+"By reading this label you agree that POWER-GRO is not liable for any radiation related incidents, and waive any rights to sue POWER-GRO.\n"
+"Should bear fruit soon."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid "POWER-GRO planter MK-II (harvest)"
+msgid_plural "POWER-GRO planter MK-II (harvest)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'POWER-GRO planter MK-II (harvest)'}
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid ""
+"The POWER-GRO planter MK-II is the ultimate solution for indoors growing. A whole farm right at your kitchen.\n"
+"By reading this label you agree that POWER-GRO is not liable for any radiation related incidents, and waive any rights to sue POWER-GRO.\n"
+"Fresh produce right at your fingertips."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid "advanced planter"
+msgid_plural "advanced planters"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'advanced planter'}
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid ""
+"An advanced planter for your indoors growing needs, comes with a built-in growing lamp.  Powered by the magic of nuclear decay and low-energy LEDs.\n"
+"Consumes up to 3 seeds and 3 units of fertilizer per use."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid "advanced planter (seed)"
+msgid_plural "advanced planter (seed)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'advanced planter (seed)'}
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid ""
+"An advanced planter for your indoors growing needs, comes with a built-in growing lamp.  Powered by the magic of nuclear decay and low-energy LEDs.\n"
+"This one has a seed in it."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid "advanced planter (seedling)"
+msgid_plural "advanced planter (seedling)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'advanced planter (seedling)'}
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid ""
+"An advanced planter for your indoors growing needs, comes with a built-in growing lamp.  Powered by the magic of nuclear decay and low-energy LEDs.\n"
+"The seed is sprouting."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid "advanced planter (mature)"
+msgid_plural "advanced planter (mature)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'advanced planter (mature)'}
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid ""
+"An advanced planter for your indoors growing needs, comes with a built-in growing lamp.  Powered by the magic of nuclear decay and low-energy LEDs.\n"
+"Should bear fruit soon."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid "advanced planter (harvest)"
+msgid_plural "advanced planter (harvest)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'advanced planter (harvest)'}
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid ""
+"An advanced planter for your indoors growing needs, comes with a built-in growing lamp.  Powered by the magic of nuclear decay and low-energy LEDs.\n"
+"Fresh produce right at your fingertips."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid "portable planter"
+msgid_plural "portable planters"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'portable planter'}
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid ""
+"A small sized planter for your indoor growing needs.\n"
+"Consumes up to 1 seed and 1 unit of fertilizer per use."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid "portable planter (seed)"
+msgid_plural "portable planter (seed)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'portable planter (seed)'}
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid ""
+"A small sized planter for your indoor growing needs.\n"
+"This one has a seed in it."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid "portable planter (seedling)"
+msgid_plural "portable planter (seedling)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'portable planter (seedling)'}
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid ""
+"A small sized planter for your indoor growing needs.\n"
+"The seed is sprouting."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid "portable planter (mature)"
+msgid_plural "portable planter (mature)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'portable planter (mature)'}
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid ""
+"A small sized planter for your indoor growing needs.\n"
+"Should bear fruit soon."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid "portable planter (harvest)"
+msgid_plural "portable planter (harvest)s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'portable planter (harvest)'}
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid ""
+"A small sized planter for your indoor growing needs.\n"
+"Fresh produce right at your fingertips."
+msgstr ""
+
 #: data/mods/innawoods/modinfo.json
 msgid "innawoods"
 msgstr "В лесах"
@@ -272170,7 +272777,7 @@ msgstr ""
 
 #: data/mods/resurrection_mod/furniture.json
 msgid "Resurrection anchor (deployed)"
-msgstr ""
+msgstr "Воскрешающий якорь (установлен)"
 
 #. ~ Description for Resurrection anchor (deployed)
 #: data/mods/resurrection_mod/furniture.json
@@ -272178,41 +272785,44 @@ msgid ""
 "A resurrection anchor, functioning as a spot for resurrection, the further "
 "away you are, the harder it is to bring everything back."
 msgstr ""
+"Воскрешающий якорь, служит как место для непосредственно воскрешения. Чем "
+"дальше от него уходишь, тем тяжелее процедура воскрешения."
 
 #: data/mods/resurrection_mod/item.json
 msgid "resurrection anchor (undeployed)"
 msgid_plural "resurrection anchor (undeployed)s"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "воскрешающий якорь (не установлен)"
+msgstr[1] "воскрешающих якоря (не установлены)"
+msgstr[2] "воскрешающих якорей (не установленных)"
+msgstr[3] "воскрешающие якори (не установлены)"
 
 #. ~ Description for {'str': 'resurrection anchor (undeployed)'}
 #: data/mods/resurrection_mod/item.json
 msgid ""
 "A resurrection anchor, can be placed to function as a point for revival."
 msgstr ""
+"Воскрешающий якорь, может быть установлен в качестве точки возрождения."
 
 #: data/mods/resurrection_mod/iuse.json
 msgid "Place and activate the resurrection anchor."
-msgstr ""
+msgstr "Установить и активировать воскрешающий якорь."
 
 #: data/mods/resurrection_mod/modinfo.json
 msgid "Resurrection"
-msgstr ""
+msgstr "Воскрешение"
 
 #. ~ Description for Resurrection
 #: data/mods/resurrection_mod/modinfo.json
 msgid "Adds resurrection anchors."
-msgstr ""
+msgstr "Добавляет воскрешающие якори."
 
 #: data/mods/rpg_system/iuse.json
 msgid "Access the [System]"
-msgstr ""
+msgstr "Доступ к [Системе]"
 
 #: data/mods/rpg_system/modinfo.json
 msgid "RPG System"
-msgstr ""
+msgstr "RPG Система"
 
 #. ~ Description for RPG System
 #: data/mods/rpg_system/modinfo.json
@@ -272220,14 +272830,17 @@ msgid ""
 "Adds an RPG [System] with [Classes], [Traits] and [Levels]. Gain experience "
 "from killing monsters, level up, choose a class, and gain powerful traits."
 msgstr ""
+"Добавляет в игру ролевую [Систему] с [Классами], [Чертами] и [Уровнями]. "
+"Получайте опыт убивая монстров, повышайте уровень, выбирайте свой класс, и "
+"приобретайте мощные черты."
 
 #: data/mods/rpg_system/system_interface.json
 msgid "[System Interface]"
 msgid_plural "[System Interface]s"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "[Интерфейс Системы]"
+msgstr[1] "[Интерфейса Системы]"
+msgstr[2] "[Интерфейсов Системы]"
+msgstr[3] "[Интерфейсы Системы]"
 
 #. ~ Description for {'str': '[System Interface]'}
 #: data/mods/rpg_system/system_interface.json
@@ -272235,6 +272848,8 @@ msgid ""
 "A mysterious interface that allows you to access the [System]. It "
 "materialized in your possession when the System initialized."
 msgstr ""
+"Загадочное устройство, предоставляющее доступ к [Системе]. Оно появилось в "
+"ваших руках в момент инициализации Системы."
 
 #: data/mods/rpg_system/system_interface.json
 msgid "Your soul burns and aches"
@@ -281207,7 +281822,7 @@ msgstr "меньше %s"
 #: src/calendar.cpp
 #, c-format
 msgid "about %s"
-msgstr "около %s"
+msgstr "примерно %s"
 
 #. ~ hour:minute (24hr time display)
 #: src/calendar.cpp
@@ -282480,12 +283095,20 @@ msgid "You try to shout but you have no face!"
 msgstr "Вы пытаетесь кричать, но у вас нет лица!"
 
 #: src/character.cpp
-msgid "a piercing howl!"
+msgid "You let out an ear-piercing howl!"
+msgstr ""
+
+#: src/character.cpp src/monattack.cpp
+msgid "an ear-piercing howl!"
 msgstr "пронзительный вой!"
 
 #: src/character.cpp
-msgid "yourself let out a piercing howl!"
-msgstr "вы пронзительно воете!"
+msgid "yourself let out an ear-piercing howl!"
+msgstr ""
+
+#: src/character.cpp
+msgid "You scream loudly!"
+msgstr ""
 
 #: src/character.cpp
 msgid "a loud scream!"
@@ -282494,6 +283117,10 @@ msgstr "пронзительный крик!"
 #: src/character.cpp
 msgid "yourself scream loudly!"
 msgstr "вы громко кричите!"
+
+#: src/character.cpp
+msgid "You yell loudly!"
+msgstr ""
 
 #: src/character.cpp
 msgid "a loud shout!"
@@ -284869,7 +285496,7 @@ msgstr "Вы получили глину."
 
 #: src/construction.cpp
 msgid "You gather some sand."
-msgstr "Вы получили песок."
+msgstr "Вы собрали немного песка."
 
 #: src/construction.cpp
 msgid "You gather some materials."
@@ -289103,7 +289730,7 @@ msgstr "Ошибка загрузки тайлсета: %s"
 #: src/game.cpp src/options.cpp
 #, c-format
 msgid "Loading the overmap tileset failed: %s"
-msgstr ""
+msgstr "Ошибка загрузки тайлсета глобальной карты: %s"
 
 #: src/game.cpp
 msgid "Please wait as we build your world"
@@ -290095,7 +290722,7 @@ msgstr "%s (обнаружена бионика)"
 #, c-format
 msgctxt "butchery menu"
 msgid "Salvage %s (%d)"
-msgstr ""
+msgstr "Утилизировать %s (%d)"
 
 #. ~ Name, number of items and time to complete disassembling
 #: src/game.cpp
@@ -291990,7 +292617,7 @@ msgstr "Супермаркет"
 
 #: src/gamemode_defense.cpp src/options.cpp
 msgid "Bar"
-msgstr "Бар"
+msgstr "Штрихи"
 
 #: src/gamemode_defense.cpp
 msgid "One entrance and many rooms.  Some medical supplies."
@@ -292188,7 +292815,7 @@ msgstr "Вы не можете закрыть %s снаружи. Вы должн
 #: src/gates.cpp
 #, c-format
 msgid "The %s is too big to just nudge out of the way."
-msgstr "На пути %s, и это слишком большое, чтобы просто оттолкнуть его."
+msgstr " %s мешает, и просто так в сторону не отпихнуть."
 
 #: src/gates.cpp
 msgid "There is too much stuff in the way."
@@ -293812,7 +294439,7 @@ msgstr "%s рассыпается на споры!"
 msgid "Use which seed?"
 msgstr "Какие семена использовать?"
 
-#: src/iexamine.cpp
+#: src/iexamine.cpp src/iuse_actor.cpp
 msgid "You have no seeds to plant."
 msgstr "У вас нет семян для посадки."
 
@@ -293820,7 +294447,7 @@ msgstr "У вас нет семян для посадки."
 msgid "Something's lying there…"
 msgstr "Здесь что-то лежит…"
 
-#: src/iexamine.cpp
+#: src/iexamine.cpp src/iuse_actor.cpp
 msgid "You saved your seeds for later."
 msgstr "Вы сохранили семена на потом."
 
@@ -297036,7 +297663,7 @@ msgstr ""
 #: src/item.cpp
 #, c-format
 msgid "* This clothing %s."
-msgstr "* Эта одежда %s."
+msgstr "* Эту одежду %s."
 
 #: src/item.cpp
 msgid " and <info>upsized</info>"
@@ -297296,8 +297923,8 @@ msgid ""
 "<bold>Disassembly</bold> takes %1$s, requires %2$s and <bold>might "
 "yield</bold>: %3$s."
 msgstr ""
-"<bold>Разборка</bold> займёт %1$s, требует %2$s и <bold>вы можете "
-"получить</bold>: %3$s."
+"<bold>Разборка</bold> займёт %1$s, потребует %2$s и <bold>может дать</bold>:"
+" %3$s."
 
 #: src/item.cpp
 #, c-format
@@ -297391,7 +298018,7 @@ msgstr "Ходов на атаку: "
 
 #: src/item.cpp
 msgid "Stamina Cost: "
-msgstr ""
+msgstr "Расход выносливости: "
 
 #: src/item.cpp
 msgid "Typical damage per second:"
@@ -297827,7 +298454,7 @@ msgstr " (больш.)"
 
 #: src/item.cpp
 msgid " (XS)"
-msgstr ""
+msgstr "(микро)"
 
 #: src/item.cpp
 msgid " (too big)"
@@ -298162,7 +298789,7 @@ msgstr "Вы засыпаете и бросаете %s."
 #: src/item.cpp
 #, c-format
 msgid "You finish your %s."
-msgstr "Вы закончили %s."
+msgstr "Потребляемый предмет (%s) иссяк."
 
 #: src/item.cpp
 #, c-format
@@ -298492,7 +299119,7 @@ msgstr "У вас закончилось %s."
 #: src/iuse.cpp src/iuse_actor.cpp
 #, c-format
 msgid "You use your %s."
-msgstr "Вы используете ваш %s."
+msgstr "Вы используете: %s."
 
 #: src/iuse.cpp
 msgid "You wash the slime from your eyes."
@@ -301684,7 +302311,7 @@ msgstr "Вы не можете это делать под водой."
 #: src/iuse_actor.cpp
 #, c-format
 msgid "%s deactivates their %s."
-msgstr ""
+msgstr "%s деактивирует %s."
 
 #: src/iuse_actor.cpp
 msgid "This item cannot be used while underwater."
@@ -302323,11 +302950,11 @@ msgstr "Количество вещей: "
 
 #: src/iuse_actor.cpp
 msgid "Item volume: Min: "
-msgstr "Объем вещей: Min: "
+msgstr "Объём вещей: минимум: "
 
 #: src/iuse_actor.cpp
 msgid "  Max: "
-msgstr "  Max: "
+msgstr "  Maксимум: "
 
 #: src/iuse_actor.cpp
 msgid "Max item weight: "
@@ -302406,7 +303033,7 @@ msgstr "%s (починено при помощи %s)"
 #: src/iuse_actor.cpp
 #, c-format
 msgid "You don't have enough %s to do that.  Have: %d, need: %d"
-msgstr "Вам не хватает %s для этого. Есть: %d, нужно: %d"
+msgstr "Вам не хватает компонентов (%s). Есть: %d, нужно: %d"
 
 #: src/iuse_actor.cpp
 msgid "That requires gunsmithing tools."
@@ -303073,12 +303700,12 @@ msgstr ""
 #: src/iuse_actor.cpp
 #, c-format
 msgid "You can't train your %s beyond %s using that."
-msgstr ""
+msgstr "Этот предмет не поможет вам в поднятии навыка %s выше уровня %s."
 
 #: src/iuse_actor.cpp
 #, c-format
 msgid "Train %s for how many hours?"
-msgstr ""
+msgstr "Сколько часов тренировать навык %s?"
 
 #: src/iuse_actor.cpp
 msgid "You can't listen to multiple music players at once!"
@@ -303101,6 +303728,74 @@ msgstr ""
 msgid ""
 "You use the %s to gather a few samples and gauge where minerals may lie "
 "nearby."
+msgstr ""
+
+#: src/iuse_actor.cpp
+msgid "You need to wait for it to grow."
+msgstr ""
+
+#: src/iuse_actor.cpp
+msgid "You don't have enough fertilizer."
+msgstr ""
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Growing</bold>: %s"
+msgstr ""
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Stage</bold>: %s"
+msgstr ""
+
+#: src/iuse_actor.cpp
+msgid "mature"
+msgstr ""
+
+#: src/iuse_actor.cpp
+msgid "harvest"
+msgstr ""
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Progress</bold>: %d%%"
+msgstr ""
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Harvestable in</bold>: %s"
+msgstr ""
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Seeds</bold>: %d/%d"
+msgstr ""
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Fertilizer</bold>: %d/%d"
+msgstr ""
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Growth</bold>: %d%%"
+msgstr ""
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Yield</bold>: %d%%"
+msgstr ""
+
+#: src/iuse_actor.cpp
+msgid "Which planter?"
+msgstr ""
+
+#: src/iuse_actor.cpp
+msgid "Transplant what?"
+msgstr ""
+
+#: src/iuse_actor.cpp
+msgid "There is nothing that can be collected nearby."
 msgstr ""
 
 #: src/iuse_actor.h
@@ -308202,16 +308897,16 @@ msgstr "Лицензия"
 msgid "Author"
 msgid_plural "Authors"
 msgstr[0] "Автор"
-msgstr[1] "Автора"
-msgstr[2] "Авторов"
+msgstr[1] "Авторы"
+msgstr[2] "Авторы"
 msgstr[3] "Автор"
 
 #: src/mod_manager_ui.cpp
 msgid "Maintainer"
 msgid_plural "Maintainers"
 msgstr[0] "Поддерживающий"
-msgstr[1] "Поддерживающих"
-msgstr[2] "Поддерживающих"
+msgstr[1] "Поддерживающие"
+msgstr[2] "Поддерживающие"
 msgstr[3] "Поддерживающий"
 
 #: src/mod_manager_ui.cpp
@@ -308219,7 +308914,7 @@ msgid "Dependency"
 msgid_plural "Dependencies"
 msgstr[0] "Зависимость"
 msgstr[1] "Зависимости"
-msgstr[2] "Зависимостей"
+msgstr[2] "Зависимости"
 msgstr[3] "Зависимость"
 
 #. ~ Followed by list of mods the current mod conflicts with
@@ -308342,10 +309037,6 @@ msgstr "%s начинает визжать!"
 
 #: src/monattack.cpp
 msgid "a piercing wail!"
-msgstr "пронзительный вой!"
-
-#: src/monattack.cpp
-msgid "an ear-piercing howl!"
 msgstr "пронзительный вой!"
 
 #: src/monattack.cpp
@@ -313300,6 +313991,14 @@ msgid "Talk to…"
 msgstr "Поговорить с…"
 
 #: src/npctalk.cpp
+msgid "Howl"
+msgstr "Издать вой"
+
+#: src/npctalk.cpp
+msgid "Scream"
+msgstr "Заорать"
+
+#: src/npctalk.cpp
 msgid "Yell"
 msgstr "Крикнуть"
 
@@ -313404,10 +314103,6 @@ msgid "Clear"
 msgstr "Ясно"
 
 #: src/npctalk.cpp
-msgid "loudly."
-msgstr "громко."
-
-#: src/npctalk.cpp
 msgid "Enter a sentence to yell"
 msgstr "Введите предложение, чтобы прокричать"
 
@@ -313424,6 +314119,15 @@ msgid ""
 "\n"
 "<color_light_gray>Leave off the prefix for a neutral monologue.</color>\n"
 msgstr ""
+"<color_light_gray>Вы можете добавить префикс к монологу для задания тона или эмоционального окраса. Допустимые префиксы:</color> %s\n"
+"\n"
+"<color_white>Примеры:</color>\n"
+"  <color_light_green>хорошо: Вам кажется, что денёк будет неплохой.</color>\n"
+"  <color_light_red>плохо: Вам не нравится это место…</color>\n"
+"  <color_light_blue>информация: Пустой дом напоминает вам о былых временах.</color>\n"
+"  <color_yellow>предупреждение: вы говорите 'Держитесь ближе, что-то приближается!'</color>\n"
+"\n"
+"<color_light_gray>Не используйте префикс для нейтрального монолога.</color>\n"
 
 #: src/npctalk.cpp
 #, c-format
@@ -313497,16 +314201,6 @@ msgstr ""
 #: src/npctalk.cpp
 msgid "As you were."
 msgstr "Отставить."
-
-#: src/npctalk.cpp
-#, c-format
-msgid "You yell %s"
-msgstr "Вы кричите: %s"
-
-#: src/npctalk.cpp
-#, c-format
-msgid "%s yelling %s"
-msgstr "%s кричит %s"
 
 #: src/npctalk.cpp
 #, c-format
@@ -314563,7 +315257,7 @@ msgstr "Всё"
 
 #: src/options.cpp
 msgid "Flowers"
-msgstr ""
+msgstr "Цветы"
 
 #: src/options.cpp
 msgid "Trees"
@@ -314938,11 +315632,12 @@ msgstr "Стиль отображения здоровья"
 #: src/options.cpp
 msgid "Switch health-related display styling such as HP and hunger"
 msgstr ""
-"Изменение стиля отображения информации о здоровье, такой как HP и голод"
+"Изменение стиля отображения информации о здоровье, такой как состояние "
+"частей тела и голода"
 
 #: src/options.cpp
 msgid "Numerical"
-msgstr ""
+msgstr "Числа"
 
 #: src/options.cpp
 msgid "Wiki URL"
@@ -315217,13 +315912,15 @@ msgstr "Режим 3: наклон влево/вправо"
 
 #: src/options.cpp
 msgid "Suggest autowalk to staircases"
-msgstr ""
+msgstr "Предлагать переход к лестницам"
 
 #: src/options.cpp
 msgid ""
 "If true, upon pressing Ascend Stairs or Descend Stairs, the player will be "
 "prompted with an option to walk to the nearest visible staircase."
 msgstr ""
+"Если включено, при команде Подняться или Спуститься игроку будет предложено "
+"автоматически пройти к ближайшей видимой лестнице."
 
 #: src/options.cpp
 msgid "Vehicle plating changes part color"
@@ -316562,23 +317259,25 @@ msgstr ""
 
 #: src/options.cpp
 msgid "Merchant restock scaling factor"
-msgstr ""
+msgstr "Множитель ассортимента торговцев"
 
 #: src/options.cpp
 msgid "A scaling factor that determines restock rate of merchants."
 msgstr ""
+"Модификатор, определяющий количество товаров у торговцев, когда они их "
+"пополняют."
 
 #: src/options.cpp
 msgid "Enabled Skill Buffs"
-msgstr ""
+msgstr "Активные бонусы от навыков"
 
 #: src/options.cpp
 msgid "Enable or disable major skill buffs"
-msgstr ""
+msgstr "Включить или выключить существенные бонусы от навыков"
 
 #: src/options.cpp
 msgid "Item category scaling factors"
-msgstr ""
+msgstr "Множитель появления предметов по категориям"
 
 #: src/options.cpp
 msgid ""
@@ -316586,10 +317285,13 @@ msgid ""
 ">1.0 means extra spawns. Set to 0.0 to disable spawning items from that "
 "category."
 msgstr ""
+"Модификатор появления для отдельных категорий. Значения ≤ 1.0 уменьшают "
+"вероятность появления,  >1.0 дают дополнительные предметы. Значение 0.0 "
+"полностью отключает появление предметов в указанной категории."
 
 #: src/options.cpp
 msgid "Monster speed percentage"
-msgstr ""
+msgstr "Скорость монстров"
 
 #: src/options.cpp
 msgid ""
@@ -316601,7 +317303,7 @@ msgstr ""
 
 #: src/options.cpp
 msgid "Monster resilience percentage"
-msgstr ""
+msgstr "Прочность монстров"
 
 #: src/options.cpp
 msgid ""
@@ -316665,27 +317367,33 @@ msgstr "Длительность сезона, в днях."
 
 #: src/options.cpp
 msgid "Construction speed percentage"
-msgstr ""
+msgstr "Скорость строительства"
 
 #: src/options.cpp
 msgid ""
 "Sets the time of construction in percents.  '50' is two times faster than "
 "default, '200' is two times longer.  '0' makes construction instant."
 msgstr ""
+"Устанавливает скорость строительства в процентном значении. '50' в два раза "
+"быстрее обычного, '200' в два раза медленнее. '0' сделает возведение "
+"построек мгновенным."
 
 #: src/options.cpp
 msgid "Crafting speed percentage"
-msgstr ""
+msgstr "Скорость крафта"
 
 #: src/options.cpp
 msgid ""
 "Sets default crafting speed in percents.  '50' is two times faster than "
 "default, '200' is two times longer.  '0' makes crafting instant."
 msgstr ""
+"Устанавливает скорость крафта в процентном значении. '50' в два раза быстрее"
+" обычного, '200' в два раза медленнее. '0' сделает изготовление предметов "
+"мгновенным."
 
 #: src/options.cpp
 msgid "Growth scaling percentage"
-msgstr ""
+msgstr "Скорость роста растений"
 
 #: src/options.cpp
 msgid ""
@@ -319249,7 +319957,7 @@ msgstr "Вы стали жертвой инфекции."
 
 #: src/player_hardcoded_effects.cpp
 msgid "You feel well rested."
-msgstr "Вы чувствуете себя хорошо отдохнувшим."
+msgstr "Вы хорошо отдохнули."
 
 #: src/player_hardcoded_effects.cpp
 msgid ""
@@ -320000,10 +320708,14 @@ msgstr[3] "%1$d инструментов со значением %2$s %3$d ил�
 #, c-format
 msgid "%1$d tool with <info>%2$s of %3$d</info> or more"
 msgid_plural "%1$d tools with <info>%2$s of %3$d</info> or more"
-msgstr[0] "%1$d инструмента с <info>%2$s из %3$d</info> или больше"
-msgstr[1] "%1$d инструмента с <info>%2$s из %3$d</info> или больше"
-msgstr[2] "%1$d инструмента с <info>%2$s из %3$d</info> или больше"
-msgstr[3] "%1$d инструмента с <info>%2$s из %3$d</info> или больше"
+msgstr[0] ""
+"%1$d инструмент с качеством <info>%2$s уровня %3$d</info> или больше"
+msgstr[1] ""
+"%1$d инструмента с качеством <info>%2$s уровня %3$d</info> или больше"
+msgstr[2] ""
+"%1$d инструментов с качеством <info>%2$s уровня %3$d</info> или больше"
+msgstr[3] ""
+"%1$d инструменты с качеством <info>%2$s уровня %3$d</info> или больше"
 
 #. ~ %1$s: tool name, %2$d: charge requirement
 #: src/requirements.cpp
@@ -320276,7 +320988,7 @@ msgstr "Пожалуйста, опустошите %s перед началом 
 #, c-format
 msgid "The %s is too small to salvage any material from."
 msgstr ""
-"%s имеет слишком маленькие размеры, чтобы можно было извлечь какие-нибудь "
+"%s слишком маленького размера, чтобы можно было извлечь какие-нибудь "
 "материалы."
 
 #: src/salvage.cpp
@@ -320307,7 +321019,7 @@ msgstr "Этот предмет помечен как избранный, всё
 
 #: src/salvage.cpp
 msgid "This item could be disassembled instead, salvage anyway?"
-msgstr ""
+msgstr "Этот предмет возможно правильно разобрать. Всё равно утилизировать?"
 
 #: src/salvage.cpp
 #, c-format
@@ -324295,8 +325007,8 @@ msgstr "Название мира:"
 #, c-format
 msgid "Press [<color_yellow>%s</color>] to pick a random name for your world."
 msgstr ""
-"Нажмите [<color_yellow>«%s»</color>], чтобы выбрать случайное имя для вашего"
-" мира."
+"Нажмите [<color_yellow>%s</color>], чтобы выбрать случайное имя для вашего "
+"мира."
 
 #: src/worldfactory.cpp
 msgid "Save Format: Experimental V2 save format"
@@ -324312,7 +325024,7 @@ msgid ""
 "<color_cyan>[Experimental]</color> Press [<color_yellow>%s</color>] to toggle save format.\n"
 "<color_light_blue>The new format shrinks save files and reduces save corruption, at the cost of slightly slower saves. You can opt into this later by converting an existing world to V2 from the main menu. V2 worlds cannot currently be converted back to V1.</color>"
 msgstr ""
-"<color_cyan>[Экспериментально]</color>Нажмите [<color_yellow>%s</color>] для изменения формата сохранения.\n"
+"<color_cyan>[Экспериментально]</color> Нажмите [<color_yellow>%s</color>] для изменения формата сохранения.\n"
 "<color_light_blue>Новый формат уменьшает размер файлов сохранений и снижает вероятность их повреждения, но при этом немного замедляет процесс сохранения. Вы можете выбрать этот формат позже, преобразовав существующий мир в экспериментальный V2 из главного меню. В настоящее время экспериментальные V2 миры не могут быть преобразованы обратно в стандартные V1.</color>"
 
 #: src/worldfactory.cpp

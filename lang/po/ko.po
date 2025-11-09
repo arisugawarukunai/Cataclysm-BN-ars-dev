@@ -29,14 +29,14 @@
 # 김예준 <gimy77357@gmail.com>, 2025
 # Coolthulhu <Coolthulhu@gmail.com>, 2025
 # ARDOR Flag, 2025
-# Tae Heon Lim, 2025
 # 김동현, 2025
+# Tae Heon Lim, 2025
 # Fruitybite, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-bn\n"
-"POT-Creation-Date: 2025-10-31 01:46+0000\n"
+"POT-Creation-Date: 2025-11-07 01:34+0000\n"
 "Last-Translator: Fruitybite, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/bn-team/teams/113585/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -6335,6 +6335,18 @@ msgstr "평평한 지붕 제거"
 msgid "Plant Grass"
 msgstr "잔디 심기"
 
+#: data/json/construction_group.json
+msgid "Build canvas flooring"
+msgstr "캔버스 바닥 건설"
+
+#: data/json/construction_group.json
+msgid "Build canvas wall"
+msgstr "캔버스 벽 건설"
+
+#: data/json/construction_group.json
+msgid "Build canvas door"
+msgstr "캔버스 문 건설"
+
 #: data/json/debug_spells.json
 msgid "Template Spell"
 msgstr "템플릿 주문"
@@ -12630,6 +12642,14 @@ msgstr "기술 훈련하기"
 #: data/json/item_actions.json
 msgid "Listen to music"
 msgstr "음악 듣기"
+
+#: data/json/item_actions.json
+msgid "Use the planter"
+msgstr "파종기 사용"
+
+#: data/json/item_actions.json
+msgid "Collect a plant"
+msgstr "식물 수집"
 
 #: data/json/item_category.json
 msgid "GUNS"
@@ -25641,6 +25661,8 @@ msgid ""
 " burning the corpses.  With command consumed by the undead, your priorities "
 "have shifted to basic survival."
 msgstr ""
+"감염 사태에 대항 및 제어하기 위해, 시체 소각 절차에 당신이 발령받았습니다.  윗선이 좀비들에게 먹힌 지금, 당신의 최우선 목표는 이제"
+" 기본적인 생존으로 바뀌었습니다."
 
 #. ~ Profession (female Military Corpse Disposal) description
 #: data/json/professions.json
@@ -25650,6 +25672,8 @@ msgid ""
 " burning the corpses.  With command consumed by the undead, your priorities "
 "have shifted to basic survival."
 msgstr ""
+"감염 사태에 대항 및 제어하기 위해, 시체 소각 절차에 당신이 발령받았습니다.  윗선이 좀비들에게 먹힌 지금, 당신의 최우선 목표는 이제"
+" 기본적인 생존으로 바뀌었습니다."
 
 #: data/json/professions.json
 msgctxt "profession_male"
@@ -25670,6 +25694,8 @@ msgid ""
 " duty have left your shooting skills rusty, and all the medals in the world "
 "won't protect you now."
 msgstr ""
+"당신은 이름없는 이등병에서 거물인 군대 사령관까지 올랐으며, 존경과 훈장을 모두 받았습니다.  이 일의 단점이라면, 너무 오랫동안 "
+"책상물림을 맡은 나머지 당신의 사격술이 녹슬었고, 온 세상의 훈장을 모두 가져온다고 해도 그것들이 당신을 보호할 수 없을 것 같습니다."
 
 #. ~ Profession (female Major General) description
 #: data/json/professions.json
@@ -25680,6 +25706,8 @@ msgid ""
 " duty have left your shooting skills rusty, and all the medals in the world "
 "won't protect you now."
 msgstr ""
+"당신은 이름없는 이등병에서 거물인 군대 사령관까지 올랐으며, 존경과 훈장을 모두 받았습니다.  이 일의 단점이라면, 너무 오랫동안 "
+"책상물림을 맡은 나머지 당신의 사격술이 녹슬었고, 온 세상의 훈장을 모두 가져온다고 해도 그것들이 당신을 보호할 수 없을 것 같습니다."
 
 #. ~ Name for scenario 'Evacuee' for a male character
 #: data/json/scenarios.json
@@ -35126,6 +35154,7 @@ msgid "This plant is maturing."
 msgstr "이 식물은 성장 중입니다."
 
 #: data/json/furniture_and_terrain/furniture-domestic_plants.json
+#: src/iuse_actor.cpp
 msgid "seed"
 msgstr "씨앗"
 
@@ -35137,6 +35166,7 @@ msgid ""
 msgstr "간단히 심겨진 씨앗. 적절한 행동이 있다면 이 씨앗의 운명이 숙명으로 바뀔 것입니다."
 
 #: data/json/furniture_and_terrain/furniture-domestic_plants.json
+#: src/iuse_actor.cpp
 msgid "seedling"
 msgstr "묘목"
 
@@ -38278,13 +38308,26 @@ msgid ""
 msgstr "쫙 펼친 방수천을 바닥에 깔았습니다. 텐트에 흙이 들어오지 않게 막아줍니다."
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
+msgid "skylight canvas floor"
+msgstr "채광창 캔버스 바닥"
+
+#. ~ Description for skylight canvas floor
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid ""
+"Flooring made out of stretched, waterproof cloth.  Helps keep the dirt out "
+"of the tent. Has a plastic skylight to let light"
+msgstr ""
+
+#: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "canvas wall"
 msgstr "캔버스 벽"
 
 #. ~ Description for canvas wall
 #: data/json/furniture_and_terrain/furniture-terrains.json
-msgid "A wall made of stretched, waterproof cloth."
-msgstr "쫙 펼친 방수천 벽입니다."
+msgid ""
+"A wall made of stretched, waterproof cloth and supported by wooden or metal "
+"stakes."
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
 #: data/json/furniture_and_terrain/terrain-doors.json
@@ -38294,38 +38337,46 @@ msgstr "쫙 펼친 방수천 벽입니다."
 msgid "slap!"
 msgstr "찰싹!"
 
-#. ~ Description for canvas wall
 #: data/json/furniture_and_terrain/furniture-terrains.json
-msgid "A wall made of stretched, heavy-duty, waterproof cloth."
-msgstr "쫙 펼친 튼튼한 방수천으로 만든 벽입니다."
+msgid "heavy-duty canvas wall"
+msgstr "고강도 캔버스 벽"
+
+#. ~ Description for heavy-duty canvas wall
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid ""
+"A wall made of stretched, waterproof cloth and supported by wooden or metal "
+"stakes. It has been strenghtened with plastic sheets."
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "canvas flap"
 msgstr "캔버스 덮개"
 
 #. ~ Description for canvas flap
+#. ~ Description for heavy-duty canvas flap
 #: data/json/furniture_and_terrain/furniture-terrains.json
-msgid "This canvas flap door could be pulled aside."
-msgstr "이 캔버스 덮개는 옆으로 젖혀둘 수 있습니다."
+msgid ""
+"This canvas flap door could be pulled aside. If you examine it closely, you "
+"could peek outside."
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "open canvas flap"
 msgstr "열린 캔버스 덮개"
 
 #. ~ Description for open canvas flap
+#. ~ Description for open heavy-duty canvas flap
 #: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "This canvas flap door has been pulled aside."
 msgstr "이 캔버스 덮개는 옆으로 젖혀져 있습니다."
 
-#. ~ Description for canvas flap
 #: data/json/furniture_and_terrain/furniture-terrains.json
-msgid "This heavy canvas flap door could be pulled aside."
-msgstr "이 묵직한 캔버스 덮개는 옆으로 젖혀져 있습니다."
+msgid "heavy-duty canvas flap"
+msgstr "고강도 캔버스 덮개"
 
-#. ~ Description for open canvas flap
 #: data/json/furniture_and_terrain/furniture-terrains.json
-msgid "This heavy canvas flap door has been pulled aside."
-msgstr "이 묵직한 캔버스 덮개 문은 옆으로 젖혀져 있습니다."
+msgid "open heavy-duty canvas flap"
+msgstr "열린 고강도 캔버스 덮개"
 
 #: data/json/furniture_and_terrain/furniture-terrains.json
 msgid "groundsheet"
@@ -49151,6 +49202,7 @@ msgid ""
 msgstr "일반적으로 가정용 세척제로 사용되는 수산화암모늄입니다. 마시면 매우 위험합니다."
 
 #: data/json/items/chemicals_and_resources.json
+#: data/mods/flowerpots_plus/items/overrides.json
 msgid "liquid fertilizer"
 msgid_plural "liquid fertilizer"
 msgstr[0] "액체비료"
@@ -49161,6 +49213,7 @@ msgid "A nutrient rich elixir for plants."
 msgstr "식물에 주는 약으로 영양소가 풍부합니다."
 
 #: data/json/items/chemicals_and_resources.json
+#: data/mods/flowerpots_plus/items/overrides.json
 msgid "commercial fertilizer"
 msgid_plural "commercial fertilizer"
 msgstr[0] "화학비료"
@@ -51810,7 +51863,8 @@ msgstr ""
 "소나무나 자작나무 재로 만든 끈적한 수지입니다. 작은 물체를 방수처리하거나 한데 묶어두는데 쓸 수 있으며, 적절한 도구가 있다면 손상된 "
 "물건을 임시로 수리하는 데에도 쓸 수 있습니다. 잘 건조시키면 송진이 되어 납땜에 쓸 수도 있습니다."
 
-#: data/json/items/generic.json
+#: data/json/items/generic.json data/mods/flowerpots_plus/ammo_types.json
+#: data/mods/flowerpots_plus/items/overrides.json
 msgid "fertilizer"
 msgid_plural "fertilizers"
 msgstr[0] "비료"
@@ -69134,11 +69188,11 @@ msgid "A lacy white wedding veil."
 msgstr "레이스 달린 흰 면사포."
 
 #: data/json/items/armor/misc.json
-msgid "tarpaulin"
-msgid_plural "tarpaulins"
-msgstr[0] "천막"
+msgid "plastic tarp"
+msgid_plural "plastic tarps"
+msgstr[0] "플라스틱 방수포"
 
-#. ~ Description for {'str': 'tarpaulin'}
+#. ~ Description for {'str': 'plastic tarp'}
 #: data/json/items/armor/misc.json
 msgid ""
 "A plastic sheet with several grommets for securing it with rope or cord.  "
@@ -115478,8 +115532,8 @@ msgstr "빗물받이를 설치했습니다. 이제 비가 내리기만 하면 �
 #. ~ Description for {'str': 'tarp raincatcher'}
 #: data/json/items/tool/raincatchers.json
 msgid ""
-"Some sticks and string with a tarpaulin to set up an improvised raincatcher."
-msgstr "빗물받이를 설치할 몇 개의 막대기와 끈과 방수포입니다."
+"Some sticks and string with a tarp to set up an improvised raincatcher."
+msgstr "간이 빗물받이를 만들 수 있도록 준비한 방수포, 막대, 실 모음입니다."
 
 #: data/json/items/tool/science.json
 msgid "barometer"
@@ -186837,7 +186891,7 @@ msgstr ""
 
 #: data/json/vehicleparts/ladders.json
 msgid "3-story rope ladder"
-msgstr ""
+msgstr "3단 밧줄 사다리"
 
 #: data/json/vehicleparts/lights.json
 msgid "aisle lights"
@@ -188275,9 +188329,9 @@ msgstr "빗물을 모아 아래의 탱크로 집어넣는 깔대기입니다."
 #. ~ Description for {'str': 'tarp raincatcher'}
 #: data/json/vehicleparts/vehicle_parts.json
 msgid ""
-"An improvised raincatcher made using a tarpaulin, to collect rainwater into "
-"the tank beneath it."
-msgstr "방수포로 만든 급조된 빗물받이입니다. 아래에 설치된 탱크에 빗물을 모을 수 있습니다."
+"An improvised raincatcher made using a tarp, to collect rainwater into the "
+"tank beneath it."
+msgstr "빗물을 받아 하단의 탱크에 저장할 수 있는, 방수포로 만든 간이 빗물받이입니다."
 
 #: data/json/vehicleparts/vehicle_parts.json
 msgid "scoop"
@@ -214714,6 +214768,91 @@ msgid ""
 "effects of acids."
 msgstr "강산과 생명작용에 대한 제어력을 이용해 스스로에게 강산 효과에 대한 면역을 부여합니다."
 
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Sparrow's Strike"
+msgstr "멧새의 비행"
+
+#. ~ Description for {'str': "Sparrow's Strike"}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Strike like a sparrow, kill thy enemy quickly, before they can act."
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Treechopping Cut"
+msgstr "벌목의 일격"
+
+#. ~ Description for {'str': 'Treechopping Cut'}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid ""
+"Swing your blade with enough force to sever a tree in twain, as well as your"
+" enemies' heads"
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Hornet's Stinger"
+msgstr "말벌 찌르기"
+
+#. ~ Description for {'str': "Hornet's Stinger"}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid ""
+"Stab through not just your enemy, but also right through their friend behind"
+" them!"
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Traveling Strike"
+msgstr "방랑의 일격"
+
+#. ~ Description for {'str': 'Traveling Strike'}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "You have places to be, you cannot let this enemy get in your path!"
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Teleporting Strike"
+msgstr "점멸의 일격"
+
+#. ~ Description for {'str': 'Teleporting Strike'}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "There's nothing personal about this conflict, you just need them dead."
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Execution Flurry"
+msgstr "흩날리는 폭풍"
+
+#. ~ Description for {'str': 'Execution Flurry'}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid ""
+"A storm of slashes approaching your enemies that will truly determine which "
+"of you is the more motivated one."
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid "Iaido"
+msgstr "발도술"
+
+#. ~ Description for {'str': 'Iaido'}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid ""
+"Strike your enemy with the draw of your weapon for an attack that is very "
+"efficient."
+msgstr ""
+
+#: data/mods/MagicalNights/Spells/blademaster.json
+#: data/mods/MagicalNights/effects/effects.json
+msgid "Blademaster's Repose"
+msgstr "검귀의 평온"
+
+#. ~ Description for {'str': "Blademaster's Repose"}
+#: data/mods/MagicalNights/Spells/blademaster.json
+msgid ""
+"When your life relies on your reflexes and your blade, it is natural to want"
+" to meditate in order to ensure your reflexes are just as razor sharp."
+msgstr ""
+"당신의 삶이 온전하기 위해 당신의 반사신경과 칼날에 의존하는 지금, 반사신경을 날카롭게 가다듬기 위해 잠시 명상하는 것은 더없이 "
+"자연스러운 일입니다."
+
 #: data/mods/MagicalNights/Spells/classless.json
 #: data/mods/MagicalNights/Spells/manatouched.json
 msgid "Crystallize Mana"
@@ -216493,6 +216632,7 @@ msgid "Your reflexes are heightened!"
 msgstr "당신의 반사신경이 향상됩니다!"
 
 #. ~ Remove message for effect(s) 'Cat's Grace'.
+#. ~ Remove message for effect(s) 'Blademaster's Repose'.
 #: data/mods/MagicalNights/effects/effects.json
 msgid "Your reflexes return to normal."
 msgstr "당신의 반사신경이 원래대로 돌아옵니다."
@@ -216714,6 +216854,16 @@ msgstr "모험 중에 겪는 일반적인 독물이나 다른 위험으로부터
 #: data/mods/MagicalNights/effects/effects.json
 msgid "You feel the anti-poison poultice wearing down in effect."
 msgstr "해독제의 효과가 사라지는게 느껴집니다."
+
+#. ~ Description of effect 'Blademaster's Repose'.
+#: data/mods/MagicalNights/effects/effects.json
+msgid "Your reflexes are razor-sharp!"
+msgstr "당신의 반사신경은 면도날처럼 날카롭습니다!"
+
+#. ~ Apply message for effect(s) 'Blademaster's Repose'.
+#: data/mods/MagicalNights/effects/effects.json
+msgid "As you finish your meditation, you feel your reflexes heighten!"
+msgstr "명상을 마치자, 반사신경이 향상되는 것이 느껴집니다!"
 
 #: data/mods/MagicalNights/items/alchemy_items.json
 msgid "owlbear gastrolith"
@@ -218251,6 +218401,48 @@ msgid ""
 "environment."
 msgstr "자연환경을 활용하는 유용한 기술을 알려주는 작고 지혜로운 책입니다."
 
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid "Studying the Blade"
+msgid_plural "copies of Studying the Blade"
+msgstr[0] "칼날에 대한 연구"
+
+#. ~ Description for {'str': 'Studying the Blade', 'str_pl': 'copies of
+#. Studying the Blade'}
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid ""
+"Interspersed with weeaboo stories that would make a 5chan board "
+"sarcastically clap, you find some surprisingly detailed notes on a few "
+"specific techniques. But there's no chance they work... right?"
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid "Swiftly Slashing"
+msgid_plural "copies of Swiftly Slashing"
+msgstr[0] "신속한 감격"
+
+#. ~ Description for {'str': 'Swiftly Slashing', 'str_pl': 'copies of Swiftly
+#. Slashing'}
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid ""
+"A collection of haikus detailing the importance of swiftness when wielding a"
+" blade, as well as how to apply the philosophy more generally. Just as the "
+"descriptions of the techniques are concise, so must your strikes be."
+msgstr ""
+
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid "Strong like Steel"
+msgid_plural "copies of Strong like Steel"
+msgstr[0] "강철과도 같이"
+
+#. ~ Description for {'str': 'Strong like Steel', 'str_pl': 'copies of Strong
+#. like Steel'}
+#: data/mods/MagicalNights/items/martial_manuals.json
+msgid ""
+"A historical text on the importance of the swordsman being just as strong "
+"and sturdy as his blade, complete with illustrations and proverbs."
+msgstr ""
+"검사가 자신이 든 검처럼 강인하고 강대한 존재여야 하는 것의 중요성을 다루는 역사적인 문헌으로, 그림과 조언을 담아 완성시켰습니다."
+
 #: data/mods/MagicalNights/items/martial_notes.json
 msgid "Martial Note"
 msgid_plural "Martial Notes"
@@ -218362,6 +218554,91 @@ msgid ""
 "Adventuring tends to result in a good amount of small cuts and bruises that "
 "might not be life-threatening, but boy do they hurt like hell!"
 msgstr ""
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Sparrow's Strike"
+msgid_plural "Notes on Sparrow's Strike"
+msgstr[0] "멧새의 비행 교본"
+
+#. ~ Description for {'str': "Note on Sparrow's Strike", 'str_pl': "Notes on
+#. Sparrow's Strike"}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "You must strike like a sparrow and attack before your enemy may react"
+msgstr "멧새처럼 날아들어 적이 반응하기 전에 강타합니다."
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Treechopping Cut"
+msgid_plural "Notes on Treechopping Cut"
+msgstr[0] "벌목의 일격 교본"
+
+#. ~ Description for {'str': 'Note on Treechopping Cut', 'str_pl': 'Notes on
+#. Treechopping Cut'}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Ever wanted to chop down a tree in a single strike? Now you can!"
+msgstr "도끼를 한번 내리찍어 거목을 쓰러뜨려보고 싶나요? 이제 할 수 있습니다!"
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Hornet's Stinger"
+msgid_plural "Notes on Hornet's Stinger"
+msgstr[0] "말벌 찌르기 교본"
+
+#. ~ Description for {'str': "Note on Hornet's Stinger", 'str_pl': "Notes on
+#. Hornet's Stinger"}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid ""
+"Much like a hornet's stinger stabs right through your skin, you must stab "
+"right through your enemies."
+msgstr "말벌의 독침이 피부를 꿰뚫듯, 당신의 무기로 적을 꿰뚫어야 합니다."
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Traveling Strike"
+msgid_plural "Notes on Traveling Strike"
+msgstr[0] "방랑의 일격 교본"
+
+#. ~ Description for {'str': 'Note on Traveling Strike', 'str_pl': 'Notes on
+#. Traveling Strike'}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid ""
+"A technique for when you're on the move and you don't want to stop in place "
+"and cut your enemy down"
+msgstr "바삐 움직이는 중에 한가하게 멈춰 적을 베느라 시간을 낭비하고 싶지 않은 사람을 위한 기술입니다."
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Execution Flurry"
+msgid_plural "Notes on Execution Flurry"
+msgstr[0] "흩날리는 폭풍 교본"
+
+#. ~ Description for {'str': 'Note on Execution Flurry', 'str_pl': 'Notes on
+#. Execution Flurry'}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid ""
+"You are a storm that is approaching, preparing to devastate your enemies."
+msgstr "당신은 다가오는 폭풍이니, 적들을 바스러뜨릴 준비를 하세요. 야마토가 있다면 더 좋을텐데요..."
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Iaido"
+msgid_plural "Notes on Iaido"
+msgstr[0] "발도술 교본"
+
+#. ~ Description for {'str': 'Note on Iaido', 'str_pl': 'Notes on Iaido'}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid ""
+"Attacking your enemy in the same breath that you draw your sword is a recipe"
+" for efficient combat."
+msgstr "한 호흡에 검을 뽑아 적을 공격하는 것이야말로 효율적인 전투를 위한 방안입니다."
+
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid "Note on Blademaster's Repose"
+msgid_plural "Notes on Blademaster's Repose"
+msgstr[0] "검귀의 평온 교본"
+
+#. ~ Description for {'str': "Note on Blademaster's Repose", 'str_pl': "Notes
+#. on Blademaster's Repose"}
+#: data/mods/MagicalNights/items/martial_notes.json
+msgid ""
+"When your reflexes and your blade are what stands between you and death, you"
+" must make sure that both are razor-sharp."
+msgstr "당신의 반사신경과 칼날은 당신과 죽음을 갈라놓는 유일한 방벽이니, 둘 모두를 날카롭게 가다듬을 필요가 있습니다."
 
 #: data/mods/MagicalNights/items/materials.json
 msgid "raw owlbear pelt"
@@ -223567,6 +223844,20 @@ msgid ""
 msgstr ""
 "모험가들은 물질계의 팔방미인으로, 여정 도중 만나는 다양한 사건에 대처할 수 있도록 한 가지에 특화하기보다 여러 기술을 두루 익혔습니다."
 
+#: data/mods/MagicalNights/traits/classes.json
+msgid "Blademaster"
+msgstr "검귀"
+
+#. ~ Description for Blademaster
+#: data/mods/MagicalNights/traits/classes.json
+msgid ""
+"Blademasters have studied the art of the blade extensively, honing their "
+"ability to strike fast and strike true.  Now you can look like your favorite"
+" anime character as you slay Zombies."
+msgstr ""
+"검귀는 검술을 두루 익히며 빠르고 정확하게 적을 강타할 수 있도록 수련해왔습니다. 이제 좀비들을 베어넘기며 좋아하는 애니 속 캐릭터가 "
+"되어봅시다."
+
 #. ~ Mutation class name
 #: data/mods/MagicalNights/traits/manatouched.json
 msgid "Manatouched"
@@ -226178,6 +226469,200 @@ msgid ""
 "A 21-round polymer magazine for Leadworks LLC 9x19mm firearms.  Lightweight "
 "and reliable but somewhat more difficult to reload."
 msgstr "리드워크 사의 9x19mm 총기용 21발들이 폴리머 탄창입니다. 가볍고 믿음직하지만 재장전하기 조금 어렵습니다."
+
+#: data/mods/flowerpots_plus/modinfo.json
+msgid "FlowerPots++"
+msgstr "화분++"
+
+#. ~ Description for FlowerPots++
+#: data/mods/flowerpots_plus/modinfo.json
+msgid "Adds flower pots to grow plants on the go."
+msgstr "식물을 심고 휴대할 수 있는 화분을 추가합니다."
+
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid "POWER-GRO planter MK-II"
+msgid_plural "POWER-GRO planter MK-IIs"
+msgstr[0] "파워-그로 재배기 마크 2"
+
+#. ~ Description for {'str': 'POWER-GRO planter MK-II'}
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid ""
+"The POWER-GRO planter MK-II is the ultimate solution for indoors growing. A whole farm right at your kitchen.\n"
+"By reading this label you agree that POWER-GRO is not liable for any radiation related incidents, and waive any rights to sue POWER-GRO.\n"
+"Consumes up to 5 seeds and 5 units of fertilizer per use."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid "POWER-GRO planter MK-II (seed)"
+msgid_plural "POWER-GRO planter MK-II (seed)s"
+msgstr[0] "파워-그로 재배기 마크 2 (씨앗)"
+
+#. ~ Description for {'str': 'POWER-GRO planter MK-II (seed)'}
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid ""
+"The POWER-GRO planter MK-II is the ultimate solution for indoors growing. A whole farm right at your kitchen.\n"
+"By reading this label you agree that POWER-GRO is not liable for any radiation related incidents, and waive any rights to sue POWER-GRO.\n"
+"This one has a seed in it."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid "POWER-GRO planter MK-II (seedling)"
+msgid_plural "POWER-GRO planter MK-II (seedling)s"
+msgstr[0] "파워-그로 재배기 마크 2 (묘목)"
+
+#. ~ Description for {'str': 'POWER-GRO planter MK-II (seedling)'}
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid ""
+"The POWER-GRO planter MK-II is the ultimate solution for indoors growing. A whole farm right at your kitchen.\n"
+"By reading this label you agree that POWER-GRO is not liable for any radiation related incidents, and waive any rights to sue POWER-GRO.\n"
+"The seed is sprouting."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid "POWER-GRO planter MK-II (mature)"
+msgid_plural "POWER-GRO planter MK-II (mature)s"
+msgstr[0] "파워-그로 재배기 마크 2 (성숙)"
+
+#. ~ Description for {'str': 'POWER-GRO planter MK-II (mature)'}
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid ""
+"The POWER-GRO planter MK-II is the ultimate solution for indoors growing. A whole farm right at your kitchen.\n"
+"By reading this label you agree that POWER-GRO is not liable for any radiation related incidents, and waive any rights to sue POWER-GRO.\n"
+"Should bear fruit soon."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid "POWER-GRO planter MK-II (harvest)"
+msgid_plural "POWER-GRO planter MK-II (harvest)s"
+msgstr[0] "파워-그로 재배기 마크 2 (수확 가능)"
+
+#. ~ Description for {'str': 'POWER-GRO planter MK-II (harvest)'}
+#: data/mods/flowerpots_plus/items/planter_l.json
+msgid ""
+"The POWER-GRO planter MK-II is the ultimate solution for indoors growing. A whole farm right at your kitchen.\n"
+"By reading this label you agree that POWER-GRO is not liable for any radiation related incidents, and waive any rights to sue POWER-GRO.\n"
+"Fresh produce right at your fingertips."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid "advanced planter"
+msgid_plural "advanced planters"
+msgstr[0] "개량형 재배기"
+
+#. ~ Description for {'str': 'advanced planter'}
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid ""
+"An advanced planter for your indoors growing needs, comes with a built-in growing lamp.  Powered by the magic of nuclear decay and low-energy LEDs.\n"
+"Consumes up to 3 seeds and 3 units of fertilizer per use."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid "advanced planter (seed)"
+msgid_plural "advanced planter (seed)s"
+msgstr[0] "개량형 재배기 (씨앗)"
+
+#. ~ Description for {'str': 'advanced planter (seed)'}
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid ""
+"An advanced planter for your indoors growing needs, comes with a built-in growing lamp.  Powered by the magic of nuclear decay and low-energy LEDs.\n"
+"This one has a seed in it."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid "advanced planter (seedling)"
+msgid_plural "advanced planter (seedling)s"
+msgstr[0] "개량형 재배기 (묘목)"
+
+#. ~ Description for {'str': 'advanced planter (seedling)'}
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid ""
+"An advanced planter for your indoors growing needs, comes with a built-in growing lamp.  Powered by the magic of nuclear decay and low-energy LEDs.\n"
+"The seed is sprouting."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid "advanced planter (mature)"
+msgid_plural "advanced planter (mature)s"
+msgstr[0] "개량형 재배기 (성숙)"
+
+#. ~ Description for {'str': 'advanced planter (mature)'}
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid ""
+"An advanced planter for your indoors growing needs, comes with a built-in growing lamp.  Powered by the magic of nuclear decay and low-energy LEDs.\n"
+"Should bear fruit soon."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid "advanced planter (harvest)"
+msgid_plural "advanced planter (harvest)s"
+msgstr[0] "개량형 재배기 (수확 가능)"
+
+#. ~ Description for {'str': 'advanced planter (harvest)'}
+#: data/mods/flowerpots_plus/items/planter_m.json
+msgid ""
+"An advanced planter for your indoors growing needs, comes with a built-in growing lamp.  Powered by the magic of nuclear decay and low-energy LEDs.\n"
+"Fresh produce right at your fingertips."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid "portable planter"
+msgid_plural "portable planters"
+msgstr[0] "휴대용 재배기"
+
+#. ~ Description for {'str': 'portable planter'}
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid ""
+"A small sized planter for your indoor growing needs.\n"
+"Consumes up to 1 seed and 1 unit of fertilizer per use."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid "portable planter (seed)"
+msgid_plural "portable planter (seed)s"
+msgstr[0] "휴대용 재배기 (씨앗)"
+
+#. ~ Description for {'str': 'portable planter (seed)'}
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid ""
+"A small sized planter for your indoor growing needs.\n"
+"This one has a seed in it."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid "portable planter (seedling)"
+msgid_plural "portable planter (seedling)s"
+msgstr[0] "휴대용 재배기 (묘목)"
+
+#. ~ Description for {'str': 'portable planter (seedling)'}
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid ""
+"A small sized planter for your indoor growing needs.\n"
+"The seed is sprouting."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid "portable planter (mature)"
+msgid_plural "portable planter (mature)s"
+msgstr[0] "휴대용 재배기 (성숙)"
+
+#. ~ Description for {'str': 'portable planter (mature)'}
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid ""
+"A small sized planter for your indoor growing needs.\n"
+"Should bear fruit soon."
+msgstr ""
+
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid "portable planter (harvest)"
+msgid_plural "portable planter (harvest)s"
+msgstr[0] "휴대용 재배기 (수확 가능)"
+
+#. ~ Description for {'str': 'portable planter (harvest)'}
+#: data/mods/flowerpots_plus/items/planter_s.json
+msgid ""
+"A small sized planter for your indoor growing needs.\n"
+"Fresh produce right at your fingertips."
+msgstr ""
 
 #: data/mods/innawoods/modinfo.json
 msgid "innawoods"
@@ -236834,12 +237319,20 @@ msgid "You try to shout but you have no face!"
 msgstr "소리를 지르고 싶지만 얼굴이 없습니다!"
 
 #: src/character.cpp
-msgid "a piercing howl!"
-msgstr "날카로운 울음소리!"
+msgid "You let out an ear-piercing howl!"
+msgstr ""
+
+#: src/character.cpp src/monattack.cpp
+msgid "an ear-piercing howl!"
+msgstr "귀를 꿰뚫는 울부짖음!"
 
 #: src/character.cpp
-msgid "yourself let out a piercing howl!"
-msgstr "날카로운 굉음으로 울부짖습니다!"
+msgid "yourself let out an ear-piercing howl!"
+msgstr ""
+
+#: src/character.cpp
+msgid "You scream loudly!"
+msgstr ""
 
 #: src/character.cpp
 msgid "a loud scream!"
@@ -236848,6 +237341,10 @@ msgstr "큰 비명소리!"
 #: src/character.cpp
 msgid "yourself scream loudly!"
 msgstr "시끄럽게 비명을 지릅니다!"
+
+#: src/character.cpp
+msgid "You yell loudly!"
+msgstr ""
 
 #: src/character.cpp
 msgid "a loud shout!"
@@ -247882,7 +248379,7 @@ msgstr "%s(이)가 산산조각나 포자가 되어 흩날립니다!"
 msgid "Use which seed?"
 msgstr "어떤 씨앗을 사용합니까?"
 
-#: src/iexamine.cpp
+#: src/iexamine.cpp src/iuse_actor.cpp
 msgid "You have no seeds to plant."
 msgstr "심을 수 있는 씨앗이 없습니다."
 
@@ -247890,7 +248387,7 @@ msgstr "심을 수 있는 씨앗이 없습니다."
 msgid "Something's lying there…"
 msgstr "뭔가 있는 것 같습니다."
 
-#: src/iexamine.cpp
+#: src/iexamine.cpp src/iuse_actor.cpp
 msgid "You saved your seeds for later."
 msgstr "나중에 쓰기 위해 씨앗을 보관해두었습니다."
 
@@ -248665,7 +249162,7 @@ msgstr "펌프에 연료가 없어 환불받을 수 없습니다."
 
 #: src/iexamine.cpp
 msgid "Do you really want to jump off the vehicle?"
-msgstr ""
+msgstr "정말로 차량에서 뛰어내립니까?"
 
 #: src/iexamine.cpp
 msgid "There is a ledge here.  What do you want to do?"
@@ -256800,6 +257297,74 @@ msgid ""
 "nearby."
 msgstr "%s(을)를 이용해 샘플을 그러모으며 광맥이 어디쯤 있을지 짐작해봅니다."
 
+#: src/iuse_actor.cpp
+msgid "You need to wait for it to grow."
+msgstr "다 자랄 때까지 기다려야 합니다."
+
+#: src/iuse_actor.cpp
+msgid "You don't have enough fertilizer."
+msgstr "비료가 부족합니다."
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Growing</bold>: %s"
+msgstr "<bold>재배 중</bold>: %s"
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Stage</bold>: %s"
+msgstr "<bold>단계</bold>: %s"
+
+#: src/iuse_actor.cpp
+msgid "mature"
+msgstr "성숙"
+
+#: src/iuse_actor.cpp
+msgid "harvest"
+msgstr "수확"
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Progress</bold>: %d%%"
+msgstr "<bold>진행도</bold>: %d%%"
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Harvestable in</bold>: %s"
+msgstr "<bold>수확 가능 시간</bold>: %s"
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Seeds</bold>: %d/%d"
+msgstr "<bold>씨앗</bold>: %d / %d"
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Fertilizer</bold>: %d/%d"
+msgstr "<bold>비료</bold>: %d / %d"
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Growth</bold>: %d%%"
+msgstr "<bold>성장</bold>: %d%%"
+
+#: src/iuse_actor.cpp
+#, c-format
+msgid "<bold>Yield</bold>: %d%%"
+msgstr "<bold>수확량</bold>: %d%%"
+
+#: src/iuse_actor.cpp
+msgid "Which planter?"
+msgstr "어느 재배기에 심습니까?"
+
+#: src/iuse_actor.cpp
+msgid "Transplant what?"
+msgstr "어떤 식물을 심습니까?"
+
+#: src/iuse_actor.cpp
+msgid "There is nothing that can be collected nearby."
+msgstr "주변에 수집할 수 있는 것이 없습니다."
+
 #: src/iuse_actor.h
 msgid "Carve"
 msgstr ""
@@ -261920,10 +262485,6 @@ msgid "a piercing wail!"
 msgstr "귀를 꿰뚫는 울부짖음!"
 
 #: src/monattack.cpp
-msgid "an ear-piercing howl!"
-msgstr "귀를 꿰뚫는 울부짖음!"
-
-#: src/monattack.cpp
 msgid "a sibilant rattling sound!"
 msgstr "쉭쉭거리는 소리!"
 
@@ -266737,6 +267298,14 @@ msgid "Talk to…"
 msgstr "말을 걸기..."
 
 #: src/npctalk.cpp
+msgid "Howl"
+msgstr ""
+
+#: src/npctalk.cpp
+msgid "Scream"
+msgstr ""
+
+#: src/npctalk.cpp
 msgid "Yell"
 msgstr "외치기"
 
@@ -266835,10 +267404,6 @@ msgid "Clear"
 msgstr "맑음"
 
 #: src/npctalk.cpp
-msgid "loudly."
-msgstr "크게 소리지릅니다."
-
-#: src/npctalk.cpp
 msgid "Enter a sentence to yell"
 msgstr "고함 지를 문장 입력"
 
@@ -266935,16 +267500,6 @@ msgstr "앞에 위협이 있어.  모두들 긴장하고 가까이 붙어있어.
 #: src/npctalk.cpp
 msgid "As you were."
 msgstr "그대로 있어."
-
-#: src/npctalk.cpp
-#, c-format
-msgid "You yell %s"
-msgstr "%s"
-
-#: src/npctalk.cpp
-#, c-format
-msgid "%s yelling %s"
-msgstr ""
 
 #: src/npctalk.cpp
 #, c-format
