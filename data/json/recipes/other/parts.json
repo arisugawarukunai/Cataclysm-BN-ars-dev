@@ -192,7 +192,7 @@
     "time": "10 m",
     "autolearn": true,
     "qualities": [ { "id": "SAW_W", "level": 2 }, { "id": "HAMMER", "level": 2 } ],
-    "components": [ [ [ "2x4", 8 ] ], [ [ "nail_glue", 36, "LIST" ] ] ]
+    "components": [ [ [ "2x4", 4 ] ], [ [ "nail_glue", 18, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -234,5 +234,23 @@
     "autolearn": true,
     "using": [ [ "welding_standard", 6 ] ],
     "components": [ [ [ "material_aluminium_ingot", 4 ] ] ]
-  }
+  },
+  {
+    "result": "peephole",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "mechanics", 2 ],
+    "time": "30 m",
+    "autolearn": true,
+    "using": [
+			[ "welding_standard", 1 ]
+		],
+		"components": [
+			[ [ "sheet_metal_small", 2 ] ],
+			[ [ "glass_shard", 2 ] ]
+		]
+	}
 ]
