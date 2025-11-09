@@ -599,6 +599,23 @@
   },
   {
     "type": "recipe",
+    "result": "box_small",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "CUT", "level": 1 }
+    ],
+    "components": [
+      [ [ "cardboard", 50 ] ],
+      [ [ "adhesive", 2, "LIST" ] ]
+    ]
+  },
+  {
+    "type": "recipe",
     "result": "box_medium",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
@@ -606,8 +623,30 @@
     "difficulty": 1,
     "time": "10 m",
     "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "cardboard", 90 ] ], [ [ "duct_tape", 100 ] ] ]
+    "qualities": [
+      { "id": "CUT", "level": 1 }
+    ],
+    "components": [
+      [ [ "cardboard", 100 ] ],
+      [ [ "adhesive", 4, "LIST" ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "box_large",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "CUT", "level": 1 }
+    ],
+    "components": [
+      [ [ "cardboard", 150 ] ],
+      [ [ "adhesive", 6, "LIST" ] ]
+    ]
   },
   {
     "type": "recipe",
