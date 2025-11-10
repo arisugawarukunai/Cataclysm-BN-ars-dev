@@ -4048,25 +4048,12 @@ void activity_handlers::chop_logs_finish( player_activity *act, player *p )
 
 void activity_handlers::chop_planks_finish( player_activity *act, player *p )
 {
-    const int max_planks = 10;
-    /** @EFFECT_FABRICATION increases number of planks cut from a log */
-    int planks = normal_roll( 2 + p->get_skill_level( skill_id( "fabrication" ) ), 1 );
-    int wasted_planks = max_planks - planks;
-    int scraps = rng( wasted_planks, wasted_planks * 3 );
-    planks = std::min( planks, max_planks );
-
+    const int planks = 20;
+    
     map &here = get_map();
-    if( planks > 0 ) {
-        here.spawn_item( here.getlocal( act->placement ), itype_2x4, planks, 0, calendar::turn );
-        p->add_msg_if_player( m_good, _( "You produce %d planks." ), planks );
-    }
-    if( scraps > 0 ) {
-        here.spawn_item( here.getlocal( act->placement ), itype_splinter, scraps, 0, calendar::turn );
-        p->add_msg_if_player( m_good, _( "You produce %d splinters." ), scraps );
-    }
-    if( planks < max_planks / 2 ) {
-        p->add_msg_if_player( m_bad, _( "You waste a lot of the wood." ) );
-    }
+    here.spawn_item( here.getlocal( act->placement ), itype_2x4, planks, 0, calendar::turn );
+    p->add_msg_if_player( m_good, _( "You produce %d planks." ), planks );
+
     act->set_to_null();
     resume_for_multi_activities( *p );
 }

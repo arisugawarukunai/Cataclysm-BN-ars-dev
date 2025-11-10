@@ -10,8 +10,8 @@
     "price": "100 USD",
     "price_postapoc": "10 cent",
     "material": "wood",
-    "weight": "30 kg",
-    "volume": "50 L",
+    "weight": "60 kg",
+    "volume": "100 L",
     "bashing": 10,
     "to_hit": -10,
     "flags": [ "FIREWOOD" ]
