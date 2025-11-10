@@ -2373,5 +2373,37 @@
     },
     "extend": { "flags": [ "TRANSPARENT", "REDUCE_SCENT", "MOUNTABLE" ] },
     "delete": { "flags": [ "NO_SCENT", "BLOCK_WIND" ] }
+  },
+  {
+    "type": "terrain",
+    "id": "t_wood_support",
+    "name": "wooden support beam",
+    "description": "A wooden support beam.",
+    "symbol": "I",
+    "color": "brown",
+    "move_cost": 0,
+    "coverage": 55,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "WALL", "PERMEABLE", "SUPPORTS_ROOF" ],
+    "bash": {
+      "str_min": 12,
+      "str_max": 150,
+      "sound": "crunch!",
+      "sound_fail": "whump!",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "2x4", "count": [ 2, 4 ] },
+        { "item": "nail", "count": [ 4, 8 ] },
+        { "item": "splinter", "count": [ 2, 4 ] }
+      ],
+      "ranged": { "reduction": [ 12, 12 ], "destroy_threshold": 150 }
+    },
+    "deconstruct": {
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "2x4", "count": 4 },
+        { "item": "nail", "count": 8 }
+      ]
+    }
   }
 ]

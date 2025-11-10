@@ -2157,5 +2157,17 @@
     "components": [ [ [ "sheet", 1 ] ], [ [ "stick_long", 1 ], [ "pointy_stick_long", 1 ] ], [ [ "filament", 25, "LIST" ] ] ],
     "pre_furniture": "f_canvas_door",
     "post_furniture": "f_large_canvas_door"
+  },
+  {
+    "type": "construction",
+    "id": "constr_floor",
+    "group": "build_wood_support",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 3 ] ],
+    "time": "90 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+    "components": [ [ [ "2x4", 4 ] ], [ [ "nail", 8 ] ] ],
+    "pre_terrain": "t_dirt",
+    "post_terrain": "t_wood_support"
   }
 ]
