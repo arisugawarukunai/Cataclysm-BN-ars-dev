@@ -1836,7 +1836,7 @@
     "color": "dark_gray",
     "move_cost": 2,
     "roof": "t_flat_roof",
-    "flags": [ "TRANSPARENT", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
     "bash": {
       "str_min": 18,
       "str_max": 75,
